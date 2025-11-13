@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 // --- Iconos ---
 const SearchIcon = ({ size = 20, className = "" }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="http://www.w.org/2000/svg"
     width={size}
     height={size}
     viewBox="0 0 24 24"
@@ -517,8 +517,9 @@ function PriceListPage() {
       
       products = products.filter(p => {
         // Normaliza el texto del producto para compararlo
+        // (MODIFICADO) Se incluye la marca en la búsqueda
         const productText = normalizeText(
-          (p.description || '') + ' ' + (p.code || '')
+          (p.description || '') + ' ' + (p.code || '') + ' ' + (p.brand || '')
         );
         return searchWords.every(word => productText.includes(word));
       });
@@ -572,7 +573,7 @@ function PriceListPage() {
         {/* 1. Contenedor del item de la grilla (sin 'relative') */}
         <div>
           <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-1">
-            Buscar por Código o Nombre
+            Buscar por Código, Nombre o Marca
           </label>
           {/* 2. Div 'relative' que envuelve SOLO el input y los íconos */}
           <div className="relative">
@@ -581,7 +582,7 @@ function PriceListPage() {
               id="search"
               value={searchTerm}
               onChange={handleSearchChange}
-              placeholder="Ej: 10001, Z10, Latex..."
+              placeholder="Ej: 10001, Z10, Latex, Alba..."
               // Ajuste en padding para evitar solapamiento
               className="w-full pl-10 pr-12 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             />
@@ -646,7 +647,7 @@ function PriceListPage() {
       ) : (
         // (NUEVO) Contenedor para ambas vistas de lista
         <div>
-          {/* (NUEVO) Vista de Tarjetas para Móvil */}
+          {/* (NUEVO) Vista de Tarjetas para Móvil (MODIFICADA) */}
           <div className="sm:hidden">
             {visibleProducts.map((product) => {
               const isInCart = cartItemCodes.has(product.code);
@@ -655,10 +656,24 @@ function PriceListPage() {
                   <div className="mb-2">
                     <p className="font-semibold text-gray-800">{product.description}</p>
                     <p className="text-sm text-gray-500">Código: {product.code}</p>
+                    {/* NUEVOS CAMPOS MÓVIL */}
+                    <p className="text-sm text-gray-500">Marca: {product.brand || 'N/A'}</p>
                   </div>
-                  <p className="text-xl font-bold text-gray-900 mb-3">
-                    {formatCurrency(product.price)}
-                  </p>
+                  {/* NUEVA SECCIÓN DE PRECIOS */}
+                  <div className="flex justify-between items-center mb-3">
+                    <div>
+                      <p className="text-xs text-gray-500">Precio USD</p>
+                      <p className="text-lg font-bold text-gray-700">
+                        {product.price_usd ? formatCurrency(product.price_usd) : '-'}
+                      </p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-xs text-gray-500">Precio Final ARS</p>
+                      <p className="text-xl font-bold text-gray-900">
+                        {formatCurrency(product.price)}
+                      </p>
+                    </div>
+                  </div>
                   <button
                     onClick={() => handleAddToCart(product)}
                     disabled={isInCart}
@@ -683,6 +698,7 @@ function PriceListPage() {
           {/* (MODIFICADO) Vista de Tabla para Escritorio (oculta en móvil) */}
           <div className="overflow-x-auto bg-white rounded-lg shadow border border-gray-200 hidden sm:block">
             <table className="min-w-full divide-y divide-gray-200">
+              {/* CABECERA DE TABLA MODIFICADA */}
               <thead className="bg-gray-50">
                 <tr>
                   <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -691,14 +707,31 @@ function PriceListPage() {
                   <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Descripción
                   </th>
+                  {/* NUEVA COLUMNA */}
+                  <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Marca
+                  </th>
+                  {/* NUEVA COLUMNA */}
+                  <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Moneda
+                  </th>
+                  {/* NUEVA COLUMNA */}
                   <th scope="col" className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Precio (ARS)
+                    Cotización
+                  </th>
+                  {/* NUEVA COLUMNA */}
+                  <th scope="col" className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Precio (USD)
+                  </th>
+                  <th scope="col" className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Precio Final (ARS)
                   </th>
                   <th scope="col" className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Acción
                   </th>
                 </tr>
               </thead>
+              {/* CUERPO DE TABLA MODIFICADO */}
               <tbody className="bg-white divide-y divide-gray-200">
                 {visibleProducts.map((product) => {
                   const isInCart = cartItemCodes.has(product.code);
@@ -709,6 +742,23 @@ function PriceListPage() {
                       </td>
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
                         {product.description}
+                      </td>
+                      {/* NUEVA CELDA */}
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
+                        {product.brand || '-'}
+                      </td>
+                      {/* NUEVA CELDA */}
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
+                        {product.currency || '-'}
+                      </td>
+                      {/* NUEVA CELDA */}
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-right text-gray-900">
+                        {/* Asumo que cotización es un número */}
+                        {product.rate ? parseFloat(product.rate).toFixed(2) : '-'}
+                      </td>
+                      {/* NUEVA CELDA */}
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
+                        {product.price_usd ? formatCurrency(product.price_usd) : '-'}
                       </td>
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
                         {formatCurrency(product.price)}

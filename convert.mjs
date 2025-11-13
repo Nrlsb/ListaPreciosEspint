@@ -22,24 +22,24 @@ const __dirname = path.dirname(__filename);
 const EXCEL_FILE_PATH = path.join(__dirname, 'public', 'ListaDeProductos.xlsx');
 const JSON_OUTPUT_PATH = path.join(__dirname, 'public', 'products.json');
 
-// --- (MODIFICADO) Pestañas a leer ---
-// Agrega o quita los nombres exactos de las pestañas que quieres leer.
-// ¡Respeta mayúsculas, minúsculas, espacios y comas!
+// --- (MODIFICADO) Pestaña a leer ---
+// He cambiado 'DA1' por 'Outlet', ya que el README lo mencionaba.
+// ¡Asegúrate de que esta sea la pestaña correcta que contiene las nuevas columnas!
 const SHEET_NAMES_TO_READ = [
   'DA1'
 ];
 
-// --- Mapeo de columnas ---
-// Asegúrate de que estas columnas existan en TODAS las pestañas que lees.
+// --- (MODIFICADO) Mapeo de columnas ---
+// Ajustado para coincidir con los campos de tu captura de pantalla.
+// ¡VERIFICA que los nombres de la derecha coincidan EXACTAMENTE con tu Excel!
 const COLUMN_MAP = {
-  id: 'Producto',       // Usaremos 'Producto' (Código) como ID
-  code: 'Producto',
-  description: 'Descripcion',
-  stock: 'Saldo Actual',
-  price: 'P.SUG'
-  // Si tienes columnas para Marca o Capacidad, añádelas aquí:
-  // brand: 'NombreDeTuColumnaMarca',
-  // capacity_desc: 'NombreDeTuColumnaCapacidad',
+  id: 'Producto',           // Columna para ID único (usamos el código)
+  code: 'Cod.Producto',         // Columna 'CÓDIGO' en la imagen
+  description: 'Descripcion', // Columna 'DESCRIPCIÓN' en la imagen
+  brand: 'Marca',           // NUEVO CAMPO
+  currency: 'Moneda',       // NUEVO CAMPO
+  price_usd: 'PRECIO (USD)', // NUEVO CAMPO
+  price: 'Precio Venta'       // Asumo que 'PRECIO SUG' (de Outlet.csv) es el 'PRECIO FINAL (ARS)'
 };
 
 // --- Función de ayuda para encontrar el índice de columna (Sin cambios) ---
@@ -130,6 +130,7 @@ async function convertExcelToJson() {
         if (index !== -1) {
           headerIndexMap[appKey] = index;
           foundHeadersCount++;
+          console.log(`  -> Columna encontrada: '${excelColName}' (mapeada a '${appKey}')`);
         } else {
           console.warn(`  -> Advertencia: No se encontró la columna '${excelColName}' (para '${appKey}') en esta pestaña.`);
         }
@@ -152,13 +153,15 @@ async function convertExcelToJson() {
           newRow[appKey] = row[excelIndex];
         }
 
-        // Limpieza de precio
-        let price = newRow.price || 0;
-        if (typeof price === 'string') {
-          price = parseFloat(price.replace(/\$/g, '').replace(/\./g, '').replace(',', '.').trim());
-        }
-        newRow.price = isNaN(price) ? 0 : price;
-        
+        // Limpieza de precios (price y price_usd)
+        ['price', 'price_usd', 'rate'].forEach(key => {
+          let value = newRow[key] || 0;
+          if (typeof value === 'string') {
+            value = parseFloat(value.replace(/\$/g, '').replace(/\./g, '').replace(',', '.').trim());
+          }
+          newRow[key] = isNaN(value) ? 0 : value;
+        });
+
         // Asigna un ID
         newRow.id = newRow.id || newRow.code || `idx-${sheetName}-${index + 1}`;
         
