@@ -149,19 +149,30 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
     return cartItems.reduce((acc, item) => {
       // (MODIFICADO) El precio se calcula dinámicamente con la cotización correcta
       const currencyValue = item.currency ? item.currency.toString().trim() : '';
-      let itemPrice;
+      let calculatedPrice; // Precio *antes* de IVA
 
       if (currencyValue === '1') {
-          itemPrice = item.price; // Es ARS, usa el precio base
+          calculatedPrice = item.price; // Es ARS, usa el precio base
       } else if (currencyValue === '2') {
-          itemPrice = item.price_usd * rateBillete; // Es USD Billete
+          calculatedPrice = item.price_usd * rateBillete; // Es USD Billete
       } else if (currencyValue === '3') {
-          itemPrice = item.price_usd * rateDivisas; // Es USD Divisas
+          calculatedPrice = item.price_usd * rateDivisas; // Es USD Divisas
       } else {
-          itemPrice = 0; // Default
+          calculatedPrice = 0; // Default
       }
-        
-      return acc + (itemPrice * item.quantity);
+      
+      // --- (NUEVO) APLICAR IVA ---
+      const tesValue = item.tes ? item.tes.toString().trim() : '';
+      let finalPrice = calculatedPrice; // Precio *final* con IVA
+
+      if (tesValue === '501') {
+          finalPrice = calculatedPrice * 1.105; // Suma 10.5%
+      } else if (tesValue === '503') {
+          finalPrice = calculatedPrice * 1.21;  // Suma 21%
+      }
+      // --- FIN NUEVA LÓGICA ---
+          
+      return acc + (finalPrice * item.quantity); // Usa el precio final
     }, 0);
   // (MODIFICADO) Depende de ambas cotizaciones
   }, [cartItems, rateBillete, rateDivisas]);
@@ -227,18 +238,30 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
         {cartItems.map(item => {
           // (MODIFICADO) Calcula el subtotal dinámicamente con la cotización correcta
           const currencyValue = item.currency ? item.currency.toString().trim() : '';
-          let itemPrice;
+          let calculatedPrice; // Precio *antes* de IVA
           
           if (currencyValue === '1') {
-              itemPrice = item.price;
+              calculatedPrice = item.price;
           } else if (currencyValue === '2') {
-              itemPrice = item.price_usd * rateBillete;
+              calculatedPrice = item.price_usd * rateBillete;
           } else if (currencyValue === '3') {
-              itemPrice = item.price_usd * rateDivisas;
+              calculatedPrice = item.price_usd * rateDivisas;
           } else {
-              itemPrice = 0;
+              calculatedPrice = 0;
           }
-          const subtotal = itemPrice * item.quantity;
+          
+          // --- (NUEVO) APLICAR IVA ---
+          const tesValue = item.tes ? item.tes.toString().trim() : '';
+          let finalPrice = calculatedPrice; 
+
+          if (tesValue === '501') {
+              finalPrice = calculatedPrice * 1.105;
+          } else if (tesValue === '503') {
+              finalPrice = calculatedPrice * 1.21;
+          }
+          // --- FIN NUEVA LÓGICA ---
+          
+          const subtotal = finalPrice * item.quantity;
 
           return (
             <div key={item.code} className="p-3">
@@ -323,18 +346,30 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
             {cartItems.map(item => {
               // (MODIFICADO) Calcula el subtotal dinámicamente con la cotización correcta
               const currencyValue = item.currency ? item.currency.toString().trim() : '';
-              let itemPrice;
+              let calculatedPrice; // Precio *antes* de IVA
               
               if (currencyValue === '1') {
-                  itemPrice = item.price;
+                  calculatedPrice = item.price;
               } else if (currencyValue === '2') {
-                  itemPrice = item.price_usd * rateBillete;
+                  calculatedPrice = item.price_usd * rateBillete;
               } else if (currencyValue === '3') {
-                  itemPrice = item.price_usd * rateDivisas;
+                  calculatedPrice = item.price_usd * rateDivisas;
               } else {
-                  itemPrice = 0;
+                  calculatedPrice = 0;
               }
-              const subtotal = itemPrice * item.quantity;
+
+              // --- (NUEVO) APLICAR IVA ---
+              const tesValue = item.tes ? item.tes.toString().trim() : '';
+              let finalPrice = calculatedPrice; 
+
+              if (tesValue === '501') {
+                  finalPrice = calculatedPrice * 1.105;
+              } else if (tesValue === '503') {
+                  finalPrice = calculatedPrice * 1.21;
+              }
+              // --- FIN NUEVA LÓGICA ---
+
+              const subtotal = finalPrice * item.quantity;
 
               return (
                 <tr key={item.code}>
@@ -518,8 +553,7 @@ function PriceListPage() {
   const handleAddToCart = (productToAdd) => {
     setCart(prevCart => {
       const existingItem = prevCart.find(item => item.code === productToAdd.code);
-      
-      // (NUEVO) El producto que se agrega (productToAdd) ya tiene el precio ARS
+      // (MODIFICADO) El producto que se agrega (productToAdd) ya tiene el precio ARS
       // y la cotización calculados por el useMemo.
       // Sin embargo, para el carrito, solo guardamos el precio base (price o price_usd).
       // El cálculo final se hace *dentro* del componente CartList.
@@ -530,8 +564,9 @@ function PriceListPage() {
         code: productToAdd.code,
         description: productToAdd.description,
         currency: productToAdd.currency,
+        tes: productToAdd.tes, // (NUEVO) Agregamos el 'tes' al carrito
         // (MODIFICADO) Guarda el precio base ARS (que es el final)
-        price: (productToAdd.currency && productToAdd.currency.toString().trim() === '1') ? productToAdd.price : 0, 
+        price: (productToAdd.currency && productToAdd.currency.toString().trim() === '1') ? productToAdd.price_base_ars : 0, 
         price_usd: productToAdd.price_usd, // Precio base USD
       };
       
@@ -630,22 +665,40 @@ function PriceListPage() {
     // (MODIFICADO) Mapea los productos para calcular precios dinámicamente
     return products.map(p => {
       const currencyValue = p.currency ? p.currency.toString().trim() : '';
+      let calculatedPrice = 0; // Precio *antes* de IVA
+      let rate = p.rate;
       
-      if (currencyValue === '2') {
-        // Es USD Billete: Calcula el precio ARS y actualiza la cotización
-        const newPriceARS = p.price_usd * rateBillete;
-        return { ...p, price: newPriceARS, rate: rateBillete };
+      if (currencyValue === '1') {
+        // Es ARS
+        calculatedPrice = p.price; // Este es el precio base de ARS
+        rate = 1; // Ya está en 1 por el script
+      } else if (currencyValue === '2') {
+        // Es USD Billete
+        calculatedPrice = p.price_usd * rateBillete;
+        rate = rateBillete;
+      } else if (currencyValue === '3') {
+        // Es USD Divisas
+        calculatedPrice = p.price_usd * rateDivisas;
+        rate = rateDivisas;
       }
+      
+      // --- (NUEVO) APLICAR IVA ---
+      const tesValue = p.tes ? p.tes.toString().trim() : '';
+      let finalPrice = calculatedPrice; // Precio *final* con IVA
 
-      if (currencyValue === '3') {
-        // Es USD Divisas: Calcula el precio ARS y actualiza la cotización
-        const newPriceARS = p.price_usd * rateDivisas;
-        return { ...p, price: newPriceARS, rate: rateDivisas };
+      if (tesValue === '501') {
+          finalPrice = calculatedPrice * 1.105; // Suma 10.5%
+      } else if (tesValue === '503') {
+          finalPrice = calculatedPrice * 1.21;  // Suma 21%
       }
+      // --- FIN NUEVA LÓGICA ---
+      
+      // (NUEVO) Preserva el precio base ARS original
+      const baseArsPrice = (currencyValue === '1') ? p.price : 0;
       
       // Es ARS (o desconocido): Devuelve el producto tal cual
       // (el script de conversión ya puso rate = 1 y price_usd = 0)
-      return p; 
+      return { ...p, price: finalPrice, rate: rate, price_base_ars: baseArsPrice }; 
     });
 
   // (MODIFICADO) Depende de allProducts, searchTerm y AMBAS cotizaciones
