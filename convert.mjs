@@ -7,11 +7,14 @@
  * 3. (Ajustado) Revisa el array 'SHEET_NAMES_TO_READ' abajo.
  * 4. (Ajustado) Revisa 'COLUMN_MAP' abajo.
  * 5. Ejecuta: node convert.mjs
+ *
+ * (MODIFICADO) Este script ahora SOBRESCRIBE 'products.json' 
+ * con el contenido del Excel, eliminando cualquier dato anterior.
  */
 
 import { read, utils } from 'xlsx';
-// (MODIFICADO) Importamos 'readFile' además de 'writeFile'
-import { writeFile, readFile } from 'fs/promises'; 
+// (MODIFICADO) Solo importamos 'writeFile'
+import { writeFile } from 'fs/promises'; 
 import { fileURLToPath } from 'url';
 import path from 'path';
 
@@ -36,7 +39,8 @@ const COLUMN_MAP = {
   id: 'Producto',           // Columna para ID único (usamos el código)
   code: 'Cod.Producto',         // Columna 'CÓDIGO' en la imagen
   description: 'Descripcion', // Columna 'DESCRIPCIÓN' en la imagen
-  brand: 'Marca',           // NUEVO CAMPO
+  brand: 'Marca',     // NUEVO CAMPO
+  tes: 'TES',        // NUEVO CAMPO
   currency: 'Moneda',       // NUEVO CAMPO
   price_usd: 'PRECIO (USD)', // NUEVO CAMPO
   price: 'Precio Venta'       // Asumo que 'PRECIO SUG' (de Outlet.csv) es el 'PRECIO FINAL (ARS)'
@@ -59,34 +63,11 @@ function findHeaderIndex(headers, colName) {
 async function convertExcelToJson() {
   try {
     
-    // --- (NUEVO) Cargar productos existentes ---
-    let existingProducts = [];
-    // (MOVIDO) Inicializamos el Map aquí para cargarlo con datos existentes
+    // --- (MODIFICADO) Inicializa un mapa vacío para los productos ---
+    // Ya no leemos el archivo JSON existente.
     const productMap = new Map(); 
-
-    try {
-      console.log(`Leyendo JSON existente desde: ${JSON_OUTPUT_PATH}`);
-      const existingData = await readFile(JSON_OUTPUT_PATH, 'utf-8');
-      existingProducts = JSON.parse(existingData);
-      
-      if (Array.isArray(existingProducts)) {
-        console.log(`Se encontraron ${existingProducts.length} productos existentes.`);
-        // (NUEVO) Cargar productos existentes en el Map
-        for (const product of existingProducts) {
-          if (product.code) {
-            productMap.set(product.code, product);
-          }
-        }
-        console.log(`Cargados ${productMap.size} productos existentes en el mapa.`);
-      }
-    } catch (err) {
-      if (err.code === 'ENOENT') {
-        console.log('No se encontró "products.json" existente. Se creará uno nuevo.');
-      } else {
-        console.warn(`Advertencia: No se pudo leer "products.json". ${err.message}`);
-      }
-    }
-    // --- Fin de carga de productos existentes ---
+    console.log('Se generará un "products.json" nuevo desde cero.');
+    // --- Fin de la modificación ---
 
 
     console.log(`Leyendo archivo Excel desde: ${EXCEL_FILE_PATH}`);
@@ -181,14 +162,16 @@ async function convertExcelToJson() {
     // --- Fin del bucle ---
 
     console.log(`\n--- Proceso completado ---`);
-    console.log(`Total de productos nuevos/actualizados leídos del Excel: ${allMappedData.length}`);
+    console.log(`Total de productos leídos del Excel: ${allMappedData.length}`);
 
     // --- (MODIFICADO) Deduplicación y Fusión ---
-    console.log('Fusionando y deduplicando productos por código...');
-    // 'productMap' ya tiene los productos viejos.
-    // Ahora agregamos/sobreescribimos con los nuevos.
+    console.log('Deduplicando productos por código (solo desde Excel)...');
+    // 'productMap' está vacío.
+    // Ahora agregamos los productos leídos del Excel.
     for (const product of allMappedData) {
       if (product.code) {
+        // Si hay códigos duplicados en el Excel, esto asegura que solo
+        // se guarde el último que aparece.
         productMap.set(product.code, product);
       }
     }
@@ -196,10 +179,10 @@ async function convertExcelToJson() {
     const finalProductList = Array.from(productMap.values());
     console.log(`Total de productos únicos (final): ${finalProductList.length}`);
     
-    // Escribe el archivo JSON final
+    // Escribe el archivo JSON final (sobrescribiendo el anterior)
     await writeFile(JSON_OUTPUT_PATH, JSON.stringify(finalProductList, null, 2));
 
-    console.log(`¡Éxito! Archivo JSON actualizado en: ${JSON_OUTPUT_PATH}`);
+    console.log(`¡Éxito! Archivo JSON NUEVO creado en: ${JSON_OUTPUT_PATH}`);
 
   } catch (error) {
     console.error('Error durante la conversión:');

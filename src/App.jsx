@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 // --- Iconos ---
 const SearchIcon = ({ size = 20, className = "" }) => (
   <svg
-    xmlns="http://www.w.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
     width={size}
     height={size}
     viewBox="0 0 24 24"
@@ -711,10 +711,11 @@ function PriceListPage() {
                   <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Marca
                   </th>
-                  {/* NUEVA COLUMNA */}
+                  {/* NUEVA COLUMNA (ELIMINADA)
                   <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Moneda
                   </th>
+                  */}
                   {/* NUEVA COLUMNA */}
                   <th scope="col" className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Cotización
@@ -747,10 +748,11 @@ function PriceListPage() {
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
                         {product.brand || '-'}
                       </td>
-                      {/* NUEVA CELDA */}
+                      {/* NUEVA CELDA (ELIMINADA)
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
                         {product.currency || '-'}
                       </td>
+                      */}
                       {/* NUEVA CELDA */}
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-right text-gray-900">
                         {/* Asumo que cotización es un número */}
