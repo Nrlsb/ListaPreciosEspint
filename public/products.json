@@ -1,0 +1,7723 @@
+[
+  {
+    "id": "000387",
+    "code": "000387",
+    "description": "MASCARILLA DESCARTABLE",
+    "stock": 5,
+    "price": 200
+  },
+  {
+    "id": "001031",
+    "code": "001031",
+    "description": "BANDEJA PARA PINTAR PLASTICA MINI (003)",
+    "stock": 5,
+    "price": 500
+  },
+  {
+    "id": "000913",
+    "code": "000913",
+    "description": "RODILLO LUMAR MINI FORRADO  8 CM (41B)",
+    "stock": 5,
+    "price": 500
+  },
+  {
+    "id": "000914",
+    "code": "000914",
+    "description": "RODILLO LUMAR MINI FORRADO 10 CM (41C)",
+    "stock": 5,
+    "price": 500
+  },
+  {
+    "id": "000134",
+    "code": "000134",
+    "description": "ENTONADOR UNIVERSAL TONALBA 002 BERMELLON X 0,030",
+    "stock": 5,
+    "price": 500
+  },
+  {
+    "id": "001111",
+    "code": "001111",
+    "description": "BANDEJA PARA PINTAR PLASTICA PARA COLGAR (012)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000505",
+    "code": "000505",
+    "description": "BANDEJA PARA PINTAR PLASTICA PLANA (013)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "004002",
+    "code": "004002",
+    "description": "REPARA MADERAS ALABASTINE ROBLE X 0,075",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000454",
+    "code": "000454",
+    "description": "DISCO DE FIBRA DOBLE A 178X22HY-71 G.A. #60",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000568",
+    "code": "000568",
+    "description": "PINCEL ROSARPIN 170 V1 NO.20",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000445",
+    "code": "000445",
+    "description": "DISCO DE FIBRA DOBLE A 178X22HX-73 G.A.#24",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "007903",
+    "code": "007903",
+    "description": "TINTA PARA MADERA CETOL CEDRO X 0,060",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000716",
+    "code": "000716",
+    "description": "VIRUTA DE ACERO LA HACENDOSA MEDIANA X 330",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000582",
+    "code": "000582",
+    "description": "PINCEL ROSARPIN 1700 V1 C.CH.15",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "003016",
+    "code": "003016",
+    "description": "ANTEOJO ROGUANT LIBUS ECOLINE INCOLORO(200452)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000302",
+    "code": "000302",
+    "description": "SILICONA FASTIX NEGRO X  25",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000145",
+    "code": "000145",
+    "description": "ENTONADOR UNIVERSAL TONALBA 002 BERMELLON X 0,120",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000152",
+    "code": "000152",
+    "description": "ENTONADOR UNIVERSAL TONALBA 009 NEGRO X 0,120",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000858",
+    "code": "000858",
+    "description": "PAD APLICADOR PLANO PARA PINTURA (A13M)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000583",
+    "code": "000583",
+    "description": "PINCEL ROSARPIN 1700 V1 C.CH.20",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000570",
+    "code": "000570",
+    "description": "PINCEL ROSARPIN 170 V1 NO.30",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000927",
+    "code": "000927",
+    "description": "MASILLA EPOXI POXILINA X 38.000",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000986",
+    "code": "000986",
+    "description": "RODILLO LUMAR EPOXI PELO CORTO 22(910C)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000487",
+    "code": "000487",
+    "description": "RODILLO LUMAR LATEX SATINADO PELO MEDIO 22(920C)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000249",
+    "code": "000249",
+    "description": "PINCEL ROSARPIN 190 V2 CCH.25",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002571",
+    "code": "002571",
+    "description": "LLANA DURA SANTA JUANA CABO PLASTICO 12X25",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000555",
+    "code": "000555",
+    "description": "PINCELETA ROSARPIN 50 STAN.40",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000989",
+    "code": "000989",
+    "description": "DISCO PIEL LUMAR ESPECIAL (50)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000988",
+    "code": "000988",
+    "description": "RODILLO LUMAR LUDAMAR LANA MARRON 22 (110C)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "001698",
+    "code": "001698",
+    "description": "AEROSOL RUST-OLEUM UC BRILLANTE VERDE CLARO X 0,340(262166)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "007449",
+    "code": "007449",
+    "description": "AEROSOL RUST-OLEUM PROTECTOR DE CAUCHO NEGRO X 0,425 (248657 / 313552)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "001204",
+    "code": "001204",
+    "description": "AEROSOL RUST-OLEUM SP EPOXI BLANCO X 0,340(2720571)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002927",
+    "code": "002927",
+    "description": "GUANTES ANSELL NEOPRENO 29-865 T.10 X 2",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000816",
+    "code": "000816",
+    "description": "TALCO INDUSTRIAL X 1",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "007002",
+    "code": "007002",
+    "description": "MOLDURA DE TERGOPOL ATTENEAS CORNIZA AT 30 X 2 MTS.",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "007015",
+    "code": "007015",
+    "description": "MOLDURA DE TERGOPOL ATTENEAS GUARDA AT 04 X 2 MTS.",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "007003",
+    "code": "007003",
+    "description": "MOLDURA DE TERGOPOL ATTENEAS CORNIZA AT 35 X 2 MTS.",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "007007",
+    "code": "007007",
+    "description": "MOLDURA DE TERGOPOL ATTENEAS CORNIZA AT 49 X 2 MTS.",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000194",
+    "code": "000194",
+    "description": "FRATACHO DE PINO 30CM CON FIELTRO (FR16)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000217",
+    "code": "000217",
+    "description": "COLA PAPEL COLVINIL X 0,250",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000799",
+    "code": "000799",
+    "description": "COLA VINILICA COLVINIL 04 X  0,250",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "004300",
+    "code": "004300",
+    "description": "COLA VINILICA COLVINIL 05 POMO X 0,250",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "001376",
+    "code": "001376",
+    "description": "MASILLA PARA MADERA COLVINIL CEDRO X 0,250",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "001373",
+    "code": "001373",
+    "description": "MASILLA PARA MADERA COLVINIL NATURAL X 0,250",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "031046",
+    "code": "031046",
+    "description": "SOLVENTE INDUSTRIAL X   1",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000005",
+    "code": "000005",
+    "description": "PORTA PINCEL MAGNETICO",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000008",
+    "code": "000008",
+    "description": "COBERTURA PLASTICA MULTIUSO 3X5MTS.",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "009421",
+    "code": "009421",
+    "description": "SELLADOR SILICONA NODULO NODULASTIC 415 NEUTRO BLANCO X 0,280",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "079340",
+    "code": "079340",
+    "description": "TINTA PARA MADERA PETRILAC CEDRO X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "079336",
+    "code": "079336",
+    "description": "TINTA PARA MADERA PETRILAC R.OSCURO X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "079344",
+    "code": "079344",
+    "description": "TINTA PARA MADERA PETRILAC WENGE X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000415",
+    "code": "000415",
+    "description": "SELLADOR PARA MADERA RESOL HOLZLACK STD. X 1",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "004186",
+    "code": "004186",
+    "description": "TINTA PARA MADERA VARATHANE NOGAL CLARO X 0,237(281758)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000827",
+    "code": "000827",
+    "description": "PINTURA EN POLVO TERSUAVE BLANCO X 4",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002214",
+    "code": "002214",
+    "description": "TINTA PARA MADERA TERSUAVE CAOBA X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002221",
+    "code": "002221",
+    "description": "TINTA PARA MADERA TERSUAVE CEDRO X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002222",
+    "code": "002222",
+    "description": "TINTA PARA MADERA TERSUAVE NOGAL X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002225",
+    "code": "002225",
+    "description": "TINTA PARA MADERA TERSUAVE PETIRIBI X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002227",
+    "code": "002227",
+    "description": "TINTA PARA MADERA TERSUAVE ROBLE CLARO X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "002239",
+    "code": "002239",
+    "description": "TINTA PARA MADERA TERSUAVE ROBLE OSCURO X 0,240",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000721",
+    "code": "000721",
+    "description": "YESO TRADICIONAL TUYANGO BLANCO X 3,500",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "004389",
+    "code": "004389",
+    "description": "REVOQUES MANUALES WEBER MIX E X  5 KG",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000652",
+    "code": "000652",
+    "description": "MASILLA POLIESTER ZEOCAR X 0,300 (66)",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000718",
+    "code": "000718",
+    "description": "YESO TRADICIONAL TUYANGO BLANCO X 1",
+    "stock": 5,
+    "price": 1000
+  },
+  {
+    "id": "000554",
+    "code": "000554",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX EXTERIOR X 1,250 (520)",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "000546",
+    "code": "000546",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX INTERIOR X 1,250 (518)",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003237",
+    "code": "003237",
+    "description": "AEROSOL TERSUAVE ESMALTE SINTETICO BRILLANTE MARRON X 0,440",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003319",
+    "code": "003319",
+    "description": "AEROSOL TERSUAVE ESMALTE SINTETICO BRILLANTE TRAFUL X 0,440",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003316",
+    "code": "003316",
+    "description": "AEROSOL TERSUAVE ESMALTE SINTETICO BRILLANTE AZUL X 0,440",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003142",
+    "code": "003142",
+    "description": "AEROSOL TERSUAVE ESMALTE SINTETICO METALIZADO BRILLANTE PLATA X 0,250",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "000462",
+    "code": "000462",
+    "description": "SILICONA FASTIX BLANCO X 100",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "000463",
+    "code": "000463",
+    "description": "SILICONA FASTIX NEGRO X 100",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003353",
+    "code": "003353",
+    "description": "AEROSOL TERSUAVE ESMALTE SINTETICO BRILLANTE ORO X 0,440",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003344",
+    "code": "003344",
+    "description": "AEROSOL TERSUAVE ESMALTE EFECTO ESMERILADO X 0,440",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003825",
+    "code": "003825",
+    "description": "AEROSOL TERSUAVE ESMALTE SINTETICO FLUO MATE VERDE X 0,440",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "004384",
+    "code": "004384",
+    "description": "MORTEROS TECNICOS WEBER.TEC RAPID X 2 KG",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "004833",
+    "code": "004833",
+    "description": "PASTINA ALTA PRESTACIONES WEBER PRESTIGE CHAMPAGNE X 2",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "004388",
+    "code": "004388",
+    "description": "REVOQUES MANUALES WEBER MIX I X 30 KG",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "007451",
+    "code": "007451",
+    "description": "AEROSOL RUST-OLEUM PROTECTOR TEMPORAL TRANSPARENTE X 0,396 (263420)",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "000506",
+    "code": "000506",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX INTERIOR X 3,000 (...)",
+    "stock": 5,
+    "price": 8000
+  },
+  {
+    "id": "000504",
+    "code": "000504",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX EXTERIOR X 3,000 (...)",
+    "stock": 5,
+    "price": 8000
+  },
+  {
+    "id": "000553",
+    "code": "000553",
+    "description": "PINCELETA ROSARPIN 9000 C.CH.40",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "000733",
+    "code": "000733",
+    "description": "EXTENSOR DE ALUMINIO ROSARPIN 1,00-2,00 M",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "000968",
+    "code": "000968",
+    "description": "LLANA PLASTICA LH 12X25",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "000451",
+    "code": "000451",
+    "description": "LLANA LISA LH 12X30",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "004383",
+    "code": "004383",
+    "description": "MORTEROS WEBER LISTO GRIS X 3 KG",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "000498",
+    "code": "000498",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX INTERIOR X 5,000 (129)",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "000499",
+    "code": "000499",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX EXTERIOR X 5,000 (521)",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003603",
+    "code": "003603",
+    "description": "ZAPATOS DE PUAS METALICAS",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "005648",
+    "code": "005648",
+    "description": "MEMBRANA ASFALTICA EMAPI D 400 AL 35KG",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003046",
+    "code": "003046",
+    "description": "DRAGER-SEMIMASCARA X-PLORE 3300",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "004385",
+    "code": "004385",
+    "description": "MORTEROS TECNICOS WEBER.TEC RAPID X 10 KG",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "004386",
+    "code": "004386",
+    "description": "REPARADOR DE HORMIGON WEBER HORMIVISTO GRIS X 10KG",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003297",
+    "code": "003297",
+    "description": "REVEPRIM IMPRIMACIÏ¿½N X 1",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "001006",
+    "code": "001006",
+    "description": "ACIDO MURIATICO INDUQUIMICA X 1",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "010503",
+    "code": "010503",
+    "description": "DILUYENTE AGUARRAS PARA ESMALTE X   0,900 (PET)",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "010702",
+    "code": "010702",
+    "description": "THINNER STANDARD X   0,900 (PET)",
+    "stock": 5,
+    "price": 2000
+  },
+  {
+    "id": "003145",
+    "code": "003145",
+    "description": "AEROSOL TERSUAVE CONVERTIDOR DE OXIDO MATE NEGRO X 0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002115",
+    "code": "002115",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE NEGRO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002147",
+    "code": "002147",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE TABACO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002109",
+    "code": "002109",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BEIGE X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002110",
+    "code": "002110",
+    "description": "ESMALTE SINTETICO PARA PIZARRON TERSUAVE MATE NEGRO X 0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000089",
+    "code": "000089",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE NEGRO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "005115",
+    "code": "005115",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE NEGRO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "005199",
+    "code": "005199",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE ROJO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002126",
+    "code": "002126",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS ESPACIAL X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002129",
+    "code": "002129",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS HIELO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002133",
+    "code": "002133",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARFIL CHAMPAGNE X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002136",
+    "code": "002136",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE CREMA X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002138",
+    "code": "002138",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE NOCHE X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002104",
+    "code": "002104",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AMARILLO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002156",
+    "code": "002156",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AMAR.MED. X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002101",
+    "code": "002101",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BLANCO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000130",
+    "code": "000130",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE BLANCO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000645",
+    "code": "000645",
+    "description": "PASTA AL AGUA ZEOCAR FINE PASTE X 0,200 (74)",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000284",
+    "code": "000284",
+    "description": "FERRO BET CONV ROJO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002100",
+    "code": "002100",
+    "description": "ESMALTE SINTETICO PARA PIZARRON TERSUAVE MATE VERDE X 0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "018915",
+    "code": "018915",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE NEGRO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000774",
+    "code": "000774",
+    "description": "CONVERSOL ROJO X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "007742",
+    "code": "007742",
+    "description": "CONVERSOL AZUL X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "007745",
+    "code": "007745",
+    "description": "CONVERSOL BEIGE X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "007746",
+    "code": "007746",
+    "description": "CONVERSOL VERDE X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009149",
+    "code": "009149",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE MARRON/CASTANO X 0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009166",
+    "code": "009166",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE CAFE X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009102",
+    "code": "009102",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE NEGRO X 0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002117",
+    "code": "002117",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE ALUMINIO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009119",
+    "code": "009119",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE INGLES X 0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009150",
+    "code": "009150",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AZUL BANDERA X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009123",
+    "code": "009123",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AZUL ADRIATICO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001041",
+    "code": "001041",
+    "description": "BTE.HAMMERITE BCO X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001276",
+    "code": "001276",
+    "description": "BTE.HAMMERITE NEGRO X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001086",
+    "code": "001086",
+    "description": "BTE.HAMMERITE AZUL OSCURO X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001167",
+    "code": "001167",
+    "description": "BTE.HAMMERITE GRIS PLATA X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001051",
+    "code": "001051",
+    "description": "BTE.HAMMERITE GRIS X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001048",
+    "code": "001048",
+    "description": "BTE.HAMMERITE AMARILLO X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001372",
+    "code": "001372",
+    "description": "BTE.HAMMERITE VERDE OSC.X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001089",
+    "code": "001089",
+    "description": "BTE.HAMMERITE BERMELLON X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001140",
+    "code": "001140",
+    "description": "BTE.HAMMERITE MARRON X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000169",
+    "code": "000169",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BLANCO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009108",
+    "code": "009108",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE BERMELLON X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009114",
+    "code": "009114",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AMARILLO MEDIANO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000184",
+    "code": "000184",
+    "description": "MART.HAMMERITE GRIS PLATA X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000187",
+    "code": "000187",
+    "description": "MART.HAMMERITE NEGRO X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001706",
+    "code": "001706",
+    "description": "FORJA HAMMERITE GRIS X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000190",
+    "code": "000190",
+    "description": "MART.HAMMERITE AZUL OSC.X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "001135",
+    "code": "001135",
+    "description": "FORJA HAMMERITE VERDE X 0,225",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "009130",
+    "code": "009130",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE ALUMINIO X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "002106",
+    "code": "002106",
+    "description": "BARNIZ MARINO PARA MADERA TERSUAVE BRILLANTE X  0,250",
+    "stock": 5,
+    "price": 3400
+  },
+  {
+    "id": "000545",
+    "code": "000545",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX INTERIOR X 0,500 (126)",
+    "stock": 5,
+    "price": 3000
+  },
+  {
+    "id": "000547",
+    "code": "000547",
+    "description": "MEZCLA ADHESIVA PLASTICA POXIMIX EXTERIOR X 0,500 (519)",
+    "stock": 5,
+    "price": 3000
+  },
+  {
+    "id": "001010",
+    "code": "001010",
+    "description": "COLA VINILICA COLVINIL 04 X  0,500",
+    "stock": 5,
+    "price": 3000
+  },
+  {
+    "id": "002087",
+    "code": "002087",
+    "description": "BARNIZ PARA MADERA INTERIOR TERSUAVE SATINADO X  0,500",
+    "stock": 5,
+    "price": 3000
+  },
+  {
+    "id": "002084",
+    "code": "002084",
+    "description": "BARNIZ PARA MADERA INTERIOR TERSUAVE MATE X 0,500",
+    "stock": 5,
+    "price": 3000
+  },
+  {
+    "id": "000234",
+    "code": "000234",
+    "description": "AUTOPOLISH COLORIN AUTOCERA EXPRESS X 0,450",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "001385",
+    "code": "001385",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 SATINADO NEGRO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "001514",
+    "code": "001514",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 BRILLANTE VIOLETA X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002205",
+    "code": "002205",
+    "description": "FONDO PARA MADERA TERSUAVE BLANCO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002209",
+    "code": "002209",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BEIGE X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002215",
+    "code": "002215",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE NEGRO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002218",
+    "code": "002218",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARRON X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002247",
+    "code": "002247",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE TABACO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "005211",
+    "code": "005211",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE MARFIL X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "005227",
+    "code": "005227",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE GRIS X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "000010",
+    "code": "000010",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE NEGRO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "019023",
+    "code": "019023",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CELESTE X 0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "019035",
+    "code": "019035",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE VICUNA X 0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002223",
+    "code": "002223",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE CELESTE X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002224",
+    "code": "002224",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARFIL SEDA X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002226",
+    "code": "002226",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS ESPACIAL X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002228",
+    "code": "002228",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS PERLA X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002229",
+    "code": "002229",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS HIELO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002233",
+    "code": "002233",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARFIL CHAMPAGNE X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002234",
+    "code": "002234",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE ILUSION X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002241",
+    "code": "002241",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE TRAFUL X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002232",
+    "code": "002232",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AZULEJO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "003412",
+    "code": "003412",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 SATINADO BLANCO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "001382",
+    "code": "001382",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 SATINADO BLANCO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "002201",
+    "code": "002201",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BLANCO X  0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "019029",
+    "code": "019029",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE G. HIELO X 0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "019037",
+    "code": "019037",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CASTANO X 0,500",
+    "stock": 5,
+    "price": 4000
+  },
+  {
+    "id": "000070",
+    "code": "000070",
+    "description": "ATLANTICO D.FILTRO SOLAR X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "070750",
+    "code": "070750",
+    "description": "DUO EXPRESS NEGRO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "070759",
+    "code": "070759",
+    "description": "DUO EXPRESS VERDE NOCHE X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "070764",
+    "code": "070764",
+    "description": "DUO EXPRESS GRIS X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "000013",
+    "code": "000013",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE BLANCO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003105",
+    "code": "003105",
+    "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE GRIS X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003136",
+    "code": "003136",
+    "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE VERDE X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003109",
+    "code": "003109",
+    "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE ROJO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003518",
+    "code": "003518",
+    "description": "ESMALTE SINTETICO TERSUAVE DOBLE ACCION MARRON X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003530",
+    "code": "003530",
+    "description": "ESMALTE SINTETICO TERSUAVE DOBLE ACCION VERDE INGLES X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003526",
+    "code": "003526",
+    "description": "ESMALTE SINTETICO TERSUAVE DOBLE ACCION GRIS ESPACIAL X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003543",
+    "code": "003543",
+    "description": "ESMALTE SINTETICO TERSUAVE DOBLE ACCION AZUL MARINO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "000016",
+    "code": "000016",
+    "description": "FONDO ANTIOXIDO COLORIN ROJO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "012553",
+    "code": "012553",
+    "description": "TINTALUSTRE CEDRO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "012551",
+    "code": "012551",
+    "description": "TINTALUSTRE ROBLE CLARO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "019013",
+    "code": "019013",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CEDRO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "019015",
+    "code": "019015",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE NEGRO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003662",
+    "code": "003662",
+    "description": "CONVERSOL AZUL X 0,450",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003666",
+    "code": "003666",
+    "description": "CONVERSOL VERDE X 0,450",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009203",
+    "code": "009203",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE GRIS PERLA X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009206",
+    "code": "009206",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE GRIS X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009249",
+    "code": "009249",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE MARRON/CASTANO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009253",
+    "code": "009253",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE TOSTADO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009266",
+    "code": "009266",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE CAFE X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "003665",
+    "code": "003665",
+    "description": "CONVERSOL BEIGE X 0,450",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "012201",
+    "code": "012201",
+    "description": "FONDO CONVERTIDOR DE OXIDO ALBA MATE BLANCO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "000390",
+    "code": "000390",
+    "description": "FUNGICIDA COLORIN X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009205",
+    "code": "009205",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE GRIS HIELO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009219",
+    "code": "009219",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE INGLES X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009231",
+    "code": "009231",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE JADE X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009232",
+    "code": "009232",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE NOCHE X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009241",
+    "code": "009241",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE MARFIL X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009250",
+    "code": "009250",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AZUL BANDERA X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009259",
+    "code": "009259",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE OCEANICO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009223",
+    "code": "009223",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AZUL ADRIATICO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "018556",
+    "code": "018556",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE AM. MEDIO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "086318",
+    "code": "086318",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE MARRON X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "086330",
+    "code": "086330",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE VERDE INGLES X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "086338",
+    "code": "086338",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE VERDE NOCHE X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "086341",
+    "code": "086341",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE TRAFUL X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "002217",
+    "code": "002217",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE ALUMINIO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009227",
+    "code": "009227",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 SATINADO BLANCO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "008320",
+    "code": "008320",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE GRIS X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "004504",
+    "code": "004504",
+    "description": "ESMALTE AL AGUA TERSUAVE SATINADO BLANCO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009247",
+    "code": "009247",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 MATE BLANCO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "000170",
+    "code": "000170",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BLANCO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "019041",
+    "code": "019041",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE TRAFUL X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "019043",
+    "code": "019043",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE A. MARINO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009207",
+    "code": "009207",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE NARANJA X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009208",
+    "code": "009208",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE BERMELLON X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009214",
+    "code": "009214",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AMARILLO MEDIANO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009263",
+    "code": "009263",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AMARILLO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "008347",
+    "code": "008347",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BLANCO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "000126",
+    "code": "000126",
+    "description": "ESMALTE SINTETICO COLORIN SATINE SATINADO BLANCO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "002207",
+    "code": "002207",
+    "description": "ESMALTE SINTETICO TERSUAVE ALTA TEMPERATURA ALUMINIO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "000669",
+    "code": "000669",
+    "description": "PARCHE PLASTICO ZEOCAR FIBRADA X 0,535 (20)",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "021154",
+    "code": "021154",
+    "description": "BARNIZ PARA MADERA EXTERIOR ALBATROS BRILLANTE DOBLE VIDA CAOBA X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "021155",
+    "code": "021155",
+    "description": "BARNIZ PARA MADERA EXTERIOR ALBATROS BRILLANTE DOBLE VIDA NOGAL X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "008329",
+    "code": "008329",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE GRIS HIELO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "008338",
+    "code": "008338",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE VERDE NOCHE X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "008341",
+    "code": "008341",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE TRAFUL X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "008343",
+    "code": "008343",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE AZUL MARINO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "002182",
+    "code": "002182",
+    "description": "ESMALTE AL AGUA SATINOL SATINADO BLANCO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "039602",
+    "code": "039602",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE BERMELLON X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "039604",
+    "code": "039604",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE AMARILLO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "086343",
+    "code": "086343",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE AZUL MARINO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009543",
+    "code": "009543",
+    "description": "ESM.AGUA ALBA AZUL NAVY X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "018517",
+    "code": "018517",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE ALUMINIIO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "009230",
+    "code": "009230",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE ALUMINIO X  0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "030717",
+    "code": "030717",
+    "description": "ESMALTE SINTETICO ALBA ALTA TEMPERATURA ALUMINIO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "001918",
+    "code": "001918",
+    "description": "SELLADOR SINTETICO PARA FISURAS Y GRIETAS PLAVICON SELLADOR PILETAS X 0,450",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "001403",
+    "code": "001403",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR EBANO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "001406",
+    "code": "001406",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR CEREZO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "001412",
+    "code": "001412",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR ROBLE X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "001415",
+    "code": "001415",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR OLIVO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "001409",
+    "code": "001409",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR CEDRO X 0,500",
+    "stock": 5,
+    "price": 5000
+  },
+  {
+    "id": "001112",
+    "code": "001112",
+    "description": "LATEX INTERIOR PLAVIPINT MATE BLANCO X  1",
+    "stock": 5,
+    "price": 3500
+  },
+  {
+    "id": "001353",
+    "code": "001353",
+    "description": "ENDUIDO INTERIOR TERSUAVE X  1",
+    "stock": 5,
+    "price": 3500
+  },
+  {
+    "id": "010707",
+    "code": "010707",
+    "description": "THINNER SELLO DE ORO X   0,900 (PET)",
+    "stock": 5,
+    "price": 3500
+  },
+  {
+    "id": "004801",
+    "code": "004801",
+    "description": "HIDROFUGO ORGANICO EN PASTA CERESITA WEBER X  1",
+    "stock": 5,
+    "price": 3500
+  },
+  {
+    "id": "001751",
+    "code": "001751",
+    "description": "FIJADOR PARA PARED TERSUAVE AL AGUA X  1",
+    "stock": 5,
+    "price": 3500
+  },
+  {
+    "id": "004736",
+    "code": "004736",
+    "description": "LATEX INTERIOR PLAVICON MATE BASE MEDIANO X  0,900",
+    "stock": 5,
+    "price": 3500
+  },
+  {
+    "id": "001536",
+    "code": "001536",
+    "description": "LATEX INTERIOR TERSUAVE LAVABLE BASE C X  0,900",
+    "stock": 5,
+    "price": 3500
+  },
+  {
+    "id": "010997",
+    "code": "010997",
+    "description": "DILUYENTE PARA PILETA Y DEMARCACION VIAL X   1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "000180",
+    "code": "000180",
+    "description": "ENDUIDO INTERIOR ALBAPLAST X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "000036",
+    "code": "000036",
+    "description": "ENDUIDO INTERIOR COLORIN SUPER LIVIANO X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "001345",
+    "code": "001345",
+    "description": "LATEX PARA CIELORRASOS TERSEN MATE BLANCO X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "031161",
+    "code": "031161",
+    "description": "DILUYENTE PARA EPOXI PLUS X   1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "004732",
+    "code": "004732",
+    "description": "LATEX INTERIOR PLAVICON MATE BASE PASTEL X  0,900",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "004716",
+    "code": "004716",
+    "description": "IMPERMEABILIZANTE PARA FRENTES PLAVICON BASE INTENSO X  1,170",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "002857",
+    "code": "002857",
+    "description": "IMPERMEABILIZANTE PARA TECHOS TERSINOL BLANCO X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "000624",
+    "code": "000624",
+    "description": "FIJADOR PARA PARED ALBA AL AGUA X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "031165",
+    "code": "031165",
+    "description": "DILUYENTE POLIURETANICO PLUS X   1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "001841",
+    "code": "001841",
+    "description": "LATEX INTERIOR TERSUAVE PROFESIONAL BLANCO X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "004728",
+    "code": "004728",
+    "description": "IMPERMEABILIZANTE PARA MUROS PLAVICON BASE INTENSO X  1,170",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "000029",
+    "code": "000029",
+    "description": "LATEX INTERIOR COLORIN ACRYLATEX MATE BLANCO X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "002306",
+    "code": "002306",
+    "description": "BARNIZ MARINO PARA MADERA TERSUAVE BRILLANTE X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "000182",
+    "code": "000182",
+    "description": "ENDUIDO EXTERIOR ALBA X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "001524",
+    "code": "001524",
+    "description": "LATEX INTERIOR TERSUAVE LAVABLE BASE W X  0,900",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "000032",
+    "code": "000032",
+    "description": "LATEX PARA CIELORRASOS COLORIN MATE BLANCO X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "003705",
+    "code": "003705",
+    "description": "DESOXIDANTE ZEOCAR X  0,950 (09)",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "002081",
+    "code": "002081",
+    "description": "BARNIZ MARINO PARA MADERA TERSUAVE BRILLANTE CON FILTRO SOLAR X 1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "002740",
+    "code": "002740",
+    "description": "IMPERMEABILIZANTE PARA TECHOS TERSITECH FIBRADO BLANCO X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "002747",
+    "code": "002747",
+    "description": "IMPERMEABILIZANTE PARA TECHOS TERSITECH FIBRADO TEJA X  1",
+    "stock": 5,
+    "price": 4500
+  },
+  {
+    "id": "001273",
+    "code": "001273",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE M X 0,900",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001252",
+    "code": "001252",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE M X  0,900",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001288",
+    "code": "001288",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE M X 0,900",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "000428",
+    "code": "000428",
+    "description": "FERRO BET ANTIOXIDO ROJO X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "071759",
+    "code": "071759",
+    "description": "DUO EXPRESS VERDE NOCHE X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002162",
+    "code": "002162",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA CONSTRUCTOR MATE BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002493",
+    "code": "002493",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE ROSA VIEJO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002486",
+    "code": "002486",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE GRIS ACERO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002491",
+    "code": "002491",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE ROJO BORGOGNA X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002492",
+    "code": "002492",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE ROJO TEJA X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002483",
+    "code": "002483",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE AZUL TRAFUL X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002494",
+    "code": "002494",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE VERDE FORESTA X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002496",
+    "code": "002496",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE VIOLETA DEL SUR X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002488",
+    "code": "002488",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE MARRON AFRICANO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004724",
+    "code": "004724",
+    "description": "IMPERMEABILIZANTE PARA MUROS PLAVICON BASE MEDIANO X  1,170",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002552",
+    "code": "002552",
+    "description": "ESMALTE SINTETICO PLAVICON SATINADO BASE INTENSO X  0,900",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001368",
+    "code": "001368",
+    "description": "LATEX INTERIOR ALBAMASTER MATE BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "000964",
+    "code": "000964",
+    "description": "LATEX INTERIOR/EXTERIOR COLORIN ACRYLATEX MATE BLANCO  X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "000510",
+    "code": "000510",
+    "description": "REMOVEDOR GEL X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002741",
+    "code": "002741",
+    "description": "IMPERMEABILIZANTE PARA TECHOS TERSITECH BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002745",
+    "code": "002745",
+    "description": "IMPERMEABILIZANTE PARA TECHOS TERSITECH ROJO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "000384",
+    "code": "000384",
+    "description": "LATEX INTERIOR ALBACRYL MATE BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002088",
+    "code": "002088",
+    "description": "BARNIZ PARA MADERA INTERIOR TERSUAVE SATINADO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "003558",
+    "code": "003558",
+    "description": "LATEX INTERIOR RECUPLAST MATE BASE ACCENT X  0,910",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002480",
+    "code": "002480",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001338",
+    "code": "001338",
+    "description": "LATEX INTERIOR TERSUAVE LAVABLE MATE BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004433",
+    "code": "004433",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM AMARILLO AMANECER X 0,887(350483)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004426",
+    "code": "004426",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM ROSA PALIDO X 0,887(311333)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004421",
+    "code": "004421",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM BLANCO LINO X 0,887(311320)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004422",
+    "code": "004422",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM CARBON X 0,887(311335-375522)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004423",
+    "code": "004423",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM GRIS CAMPESTRE X 0,887(311332)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004425",
+    "code": "004425",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM AZUL SERENO X 0,887(311331)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004431",
+    "code": "004431",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM VERDE MENTA X 0,887(337884)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004432",
+    "code": "004432",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM TURQUESA  AGUAMARINA X 0,887(350624)",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002085",
+    "code": "002085",
+    "description": "BARNIZ PARA MADERA INTERIOR TERSUAVE MATE X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "027501",
+    "code": "027501",
+    "description": "IMPERMEABILIZANTE PARA TECHOS DURALBA SATINADO BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "004720",
+    "code": "004720",
+    "description": "IMPERMEABILIZANTE PARA MUROS PLAVICON BASE PASTEL X  1,170",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001612",
+    "code": "001612",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS TERSITECH SEMIMATE BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005167",
+    "code": "005167",
+    "description": "LATEX INTERIOR PLAVICON HABITAT LISTO PARA USAR MATE PINO X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001946",
+    "code": "001946",
+    "description": "IMPERMEABILIZANTE PARA MUROS PLAVICON MATE BLANCO X  1,250",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005407",
+    "code": "005407",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN TURQUESA X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005404",
+    "code": "005404",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN AZUL X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005405",
+    "code": "005405",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN CORAL X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005402",
+    "code": "005402",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN NARANJA X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005409",
+    "code": "005409",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN VIOLETA X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005406",
+    "code": "005406",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN ROSA X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "005403",
+    "code": "005403",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN AMARILLO X 1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "000118",
+    "code": "000118",
+    "description": "LATEX PARA CIELORRASOS ALBA MATE BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001901",
+    "code": "001901",
+    "description": "IMPERMEABILIZANTE PARA TECHOS PLAVICON FIBRADO ROJO X  1,250",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "001632",
+    "code": "001632",
+    "description": "FONDO PARA MADERA PLAVICON BLANCO X  1",
+    "stock": 5,
+    "price": 5500
+  },
+  {
+    "id": "002735",
+    "code": "002735",
+    "description": "IMPREGNANTE PARA MADERA TERSUAVE SATINADO NOGAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001035",
+    "code": "001035",
+    "description": "BARNIZ SINTETICO PARA MADERA INTERIOR PLAVICON BRILLANTE INCOLORO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000422",
+    "code": "000422",
+    "description": "LATEX EXTERIOR ALBAFRENT MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003570",
+    "code": "003570",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS RECUPLAST BASE ACCENT X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001389",
+    "code": "001389",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 SATINADO NEGRO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001232",
+    "code": "001232",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE T X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002249",
+    "code": "002249",
+    "description": "PROTECTOR PARA LADRILLO TERSUAVE IMPRECOL SATINADO NATURAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002315",
+    "code": "002315",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE NEGRO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002318",
+    "code": "002318",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARRON X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002337",
+    "code": "002337",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE CASTANO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002347",
+    "code": "002347",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE TABACO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002320",
+    "code": "002320",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS OSCURO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002309",
+    "code": "002309",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BEIGE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001516",
+    "code": "001516",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 BRILLANTE VIOLETA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001577",
+    "code": "001577",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 BRILLANTE BEIGE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001565",
+    "code": "001565",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 BRILLANTE CASTANO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001447",
+    "code": "001447",
+    "description": "LATEX INTERIOR COLORIN EMOCION MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002252",
+    "code": "002252",
+    "description": "IMPERMEABLIZANTE PARA TECHOS RECUPLAST FIBRADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000011",
+    "code": "000011",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE NEGRO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001208",
+    "code": "001208",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE T X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001054",
+    "code": "001054",
+    "description": "AUTOPOLISH COLORIN AUTOCERA PROFESIONAL X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003677",
+    "code": "003677",
+    "description": "IMPERMEABILIZANTE PARA TECHOS THERMOCONTROL FIBRADO TEJA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003667",
+    "code": "003667",
+    "description": "IMPERMEABILIZANTE PARA TECHOS THERMOCONTROL FIBRADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000649",
+    "code": "000649",
+    "description": "PINTURA ASFALTICA SECADO RAPIDO MEGAFLEX X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001779",
+    "code": "001779",
+    "description": "LATEX INTERIOR RECUPLAST MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "005315",
+    "code": "005315",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE NEGRO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "005399",
+    "code": "005399",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE ROJO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "005327",
+    "code": "005327",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE GRIS X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "005311",
+    "code": "005311",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE MARFIL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "039305",
+    "code": "039305",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE AZUL TRAFUL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003731",
+    "code": "003731",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE T X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003331",
+    "code": "003331",
+    "description": "IMPREGNANTE PARA MADERA TERSUAVE BRILLANTE CAOBA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000385",
+    "code": "000385",
+    "description": "LATEX INTERIOR ALBACRYL RINDE MAS MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001364",
+    "code": "001364",
+    "description": "IMPREGNANTE PARA MADERA PLAVICON LASUR SATINADO NOGAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001236",
+    "code": "001236",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001212",
+    "code": "001212",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "062152",
+    "code": "062152",
+    "description": "IMPREGNANTE PARA MADERA SINTEPLAST FORESTA ADVANCE SATINADO ROBLE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004378",
+    "code": "004378",
+    "description": "PASTINA LISTA WEBER PLATA X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004381",
+    "code": "004381",
+    "description": "PASTINA LISTA WEBER NEGRO X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004376",
+    "code": "004376",
+    "description": "PASTINA LISTA WEBER MEDANO X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004377",
+    "code": "004377",
+    "description": "PASTINA LISTA WEBER HUESO X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004379",
+    "code": "004379",
+    "description": "PASTINA LISTA WEBER PERLATO X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004382",
+    "code": "004382",
+    "description": "PASTINA LISTA WEBER HABANO X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004373",
+    "code": "004373",
+    "description": "PASTINA LISTA WEBER NIEVE X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004374",
+    "code": "004374",
+    "description": "PASTINA LISTA WEBER GRIS PERLA X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004380",
+    "code": "004380",
+    "description": "PASTINA LISTA WEBER CEDRO X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004375",
+    "code": "004375",
+    "description": "PASTINA LISTA WEBER BEIGE X 1 KG",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019123",
+    "code": "019123",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CELESTE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002537",
+    "code": "002537",
+    "description": "ESMALTE SINTETICO PLAVICON BRILLANTE BASE PASTEL X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004430",
+    "code": "004430",
+    "description": "PINTURA A LA TIZA CHALKED RUST-OLEUM ROJO CAMPESTRE X 0,887(342646)",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002334",
+    "code": "002334",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE ILUSION X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002338",
+    "code": "002338",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE NOCHE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002328",
+    "code": "002328",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS PERLA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002319",
+    "code": "002319",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE CLARO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002326",
+    "code": "002326",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS ESPACIAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002336",
+    "code": "002336",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE CREMA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002341",
+    "code": "002341",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE TRAFUL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002343",
+    "code": "002343",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AZUL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002332",
+    "code": "002332",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AZULEJO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002323",
+    "code": "002323",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE CELESTE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003728",
+    "code": "003728",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003413",
+    "code": "003413",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 SATINADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000970",
+    "code": "000970",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS THERMOCONTROL FLEX BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003226",
+    "code": "003226",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BASE T X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001220",
+    "code": "001220",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE P X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001244",
+    "code": "001244",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE P X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001303",
+    "code": "001303",
+    "description": "ALBAMATE B F X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003054",
+    "code": "003054",
+    "description": "PINTURA PARA PILETA TERSUAVE AL AGUA BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003013",
+    "code": "003013",
+    "description": "PINTURA PARA PILETA TERSUAVE AL AGUA AZUL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001383",
+    "code": "001383",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 SATINADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000655",
+    "code": "000655",
+    "description": "MASILLA POLIESTER ZEOCAR X 1 (35)",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000196",
+    "code": "000196",
+    "description": "FONDO ANTIOXIDO ALBA ROJO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002302",
+    "code": "002302",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BERMELLON X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002356",
+    "code": "002356",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AMAR.MED. X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002301",
+    "code": "002301",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000083",
+    "code": "000083",
+    "description": "PROTECTOR SUBCARROCERIA MMB ACUOSA NEGRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003729",
+    "code": "003729",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE P X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019134",
+    "code": "019134",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE V. ILUSION X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019136",
+    "code": "019136",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CREMA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001300",
+    "code": "001300",
+    "description": "IMPREGNANTE PARA MADERA PLAVICON LASUR BRILLANTE CRISTAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000021",
+    "code": "000021",
+    "description": "FONDO PARA MADERA COLORIN BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000014",
+    "code": "000014",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000084",
+    "code": "000084",
+    "description": "PROTECTOR SUBCARROCERIA MMB ACUOSA BLANCO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001279",
+    "code": "001279",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE T X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "027340",
+    "code": "027340",
+    "description": "LATEX EXTERIOR DURALBA MATE NEGRO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "027301",
+    "code": "027301",
+    "description": "LATEX EXTERIOR DURALBA MATE GRIS CEMENTO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "027341",
+    "code": "027341",
+    "description": "LATEX EXTERIOR DURALBA MATE VERDE TENIS X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "027304",
+    "code": "027304",
+    "description": "LATEX EXTERIOR DURALBA MATE OCRE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "027306",
+    "code": "027306",
+    "description": "LATEX EXTERIOR DURALBA MATE VERDE MUSGO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000688",
+    "code": "000688",
+    "description": "ESMALTE SINTETICO COLORIN TITANIO BRILLANTE BLANCO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003562",
+    "code": "003562",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS RECUPLAST BASE TINT X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003236",
+    "code": "003236",
+    "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE VERDE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003209",
+    "code": "003209",
+    "description": "FONDO CONVERTIDOR DE OXIDO TERSUAVE MATE ROJO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000393",
+    "code": "000393",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000110",
+    "code": "000110",
+    "description": "LATEX INTERIOR ALBALATEX MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003176",
+    "code": "003176",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE T X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003626",
+    "code": "003626",
+    "description": "ESMALTE SINTETICO TERSUAVE DOBLE ACCION GRIS ESPACIAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003643",
+    "code": "003643",
+    "description": "ESMALTE SINTETICO TERSUAVE DOBLE ACCION AZUL MARINO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000208",
+    "code": "000208",
+    "description": "BARNIZ PARA MADERA INTERIOR CRISTALBA PU BRILLANTE NATURAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003223",
+    "code": "003223",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001291",
+    "code": "001291",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE T X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000295",
+    "code": "000295",
+    "description": "PROTECTOR PARA LADRILLO COLORIN NATURAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000271",
+    "code": "000271",
+    "description": "PROTECTOR PARA LADRILLO COLORIN CERAMICO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "039301",
+    "code": "039301",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE GRIS CEMENTO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001783",
+    "code": "001783",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS RECUPLAST BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007118",
+    "code": "007118",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE INTERIOR SATINADO CRISTAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007116",
+    "code": "007116",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE INTERIOR BRILLANTE CRISTAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001845",
+    "code": "001845",
+    "description": "FONDO PARA GALVANIZADO TERSUAVE GALVANIC GRIS X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "012651",
+    "code": "012651",
+    "description": "TINTALUSTRE ROBLE CLARO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001282",
+    "code": "001282",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000048",
+    "code": "000048",
+    "description": "BARNIZ MATE COLORIN X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002300",
+    "code": "002300",
+    "description": "ESMALTE SINTETICO PARA PIZARRON TERSUAVE MATE VERDE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009353",
+    "code": "009353",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE TOSTADO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009349",
+    "code": "009349",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE MARRON/CASTANO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009366",
+    "code": "009366",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE CAFE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009306",
+    "code": "009306",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE GRIS X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009303",
+    "code": "009303",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE GRIS PERLA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000200",
+    "code": "000200",
+    "description": "FONDO PARA MADERA ALBA BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003172",
+    "code": "003172",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002354",
+    "code": "002354",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE BASE T X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007886",
+    "code": "007886",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC SATINADO CRISTAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007884",
+    "code": "007884",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC SATINADO CAOBA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007888",
+    "code": "007888",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC SATINADO NOGAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003086",
+    "code": "003086",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE AMARILLO LATINO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003092",
+    "code": "003092",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE VIOLETA ESTELAR X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003084",
+    "code": "003084",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE ROJO INTENSO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003088",
+    "code": "003088",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE VERDE EXOTICO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003090",
+    "code": "003090",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE AZUL BAHAMAS X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001293",
+    "code": "001293",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002510",
+    "code": "002510",
+    "description": "ESMALTE AL AGUA SATINOL SATINADO BASE T X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000351",
+    "code": "000351",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 BRILLANTE ALUMINIO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001201",
+    "code": "001201",
+    "description": "SELLADOR NITROCELULOSICO PARA MADERA COLVINIL X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "005226",
+    "code": "005226",
+    "description": "LACA NITROCELULOSICA COLVINIL BRILLANTE X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000631",
+    "code": "000631",
+    "description": "PASTA PARA PULIR FINA ZEOCAR X 1 (02)",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003672",
+    "code": "003672",
+    "description": "CONVERSOL AZUL X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003675",
+    "code": "003675",
+    "description": "CONVERSOL BEIGE X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003671",
+    "code": "003671",
+    "description": "CONVERSOL BCO X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000367",
+    "code": "000367",
+    "description": "CONVERSOL ROJO X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003100",
+    "code": "003100",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003168",
+    "code": "003168",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE P X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019120",
+    "code": "019120",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE GRIS X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019115",
+    "code": "019115",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE NEGRO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019118",
+    "code": "019118",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE MARRON X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019147",
+    "code": "019147",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE TABACO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019113",
+    "code": "019113",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CEDRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019119",
+    "code": "019119",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE V. CLARO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019128",
+    "code": "019128",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE PERLA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002317",
+    "code": "002317",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE ALUMINIO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009331",
+    "code": "009331",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE JADE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009359",
+    "code": "009359",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE OCEANICO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009332",
+    "code": "009332",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE NOCHE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009341",
+    "code": "009341",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE MARFIL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009350",
+    "code": "009350",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AZUL BANDERA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009323",
+    "code": "009323",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AZUL ADRIATICO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001270",
+    "code": "001270",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE P X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "098421",
+    "code": "098421",
+    "description": "LATEX PARA PISO ALBA MATE ROJO COLONIAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "098422",
+    "code": "098422",
+    "description": "LATEX PARA PISO ALBA MATE CENIZA X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "098405",
+    "code": "098405",
+    "description": "LATEX PARA PISO ALBA MATE AZUL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "098441",
+    "code": "098441",
+    "description": "LATEX PARA PISO ALBA MATE VERDE TENIS X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000204",
+    "code": "000204",
+    "description": "BARNIZ PARA MADERA EXTERIOR ALBATROS BRILLANTE NATURAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001234",
+    "code": "001234",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE T X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "086418",
+    "code": "086418",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE MARRON X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "086433",
+    "code": "086433",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE MARFIL CHAMPAGNE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001159",
+    "code": "001159",
+    "description": "AUTOPOLISH COLORIN PASTA AL AGUA X 1,000",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001162",
+    "code": "001162",
+    "description": "PROTECTOR SUBCARROCERIA NODULO UNDERLASTIC ANTIRRUIDO/SUBCARROC X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003062",
+    "code": "003062",
+    "description": "PINTURA PARA PILETA TERSUAVE AL SOLVENTE AZUL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000974",
+    "code": "000974",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN TOQUE DE LUZ MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001285",
+    "code": "001285",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE P X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002352",
+    "code": "002352",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE BASE MF X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002867",
+    "code": "002867",
+    "description": "ESMALTE SINTETICO TERSPRAY SECADO RAPIDO AZUL BANDERA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002508",
+    "code": "002508",
+    "description": "ESMALTE AL AGUA SATINOL SATINADO BASE MF X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001926",
+    "code": "001926",
+    "description": "IMPERMEABLIZANTE ANTIHUMEDAD TERSEC X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "061963",
+    "code": "061963",
+    "description": "SATINOL MARRON TOBAGO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "061957",
+    "code": "061957",
+    "description": "SATINOL OCRE MADEIRA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "061961",
+    "code": "061961",
+    "description": "SATINOL VERDE PETREO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009308",
+    "code": "009308",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE BERMELLON X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009307",
+    "code": "009307",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE NARANJA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009314",
+    "code": "009314",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AMARILLO MEDIANO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009363",
+    "code": "009363",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AMARILLO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003164",
+    "code": "003164",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009347",
+    "code": "009347",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 MATE BLANCO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "012301",
+    "code": "012301",
+    "description": "FONDO CONVERTIDOR DE OXIDO ALBA MATE BLANCO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002502",
+    "code": "002502",
+    "description": "ESMALTE SINTETICO TERSUAVE FERRO MICACEO PLATA INCAICA X 0,750",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001256",
+    "code": "001256",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE F X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007185",
+    "code": "007185",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE CLASSIC SATINADO NOGAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007062",
+    "code": "007062",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE CLASSIC SATINADO CRISTAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001920",
+    "code": "001920",
+    "description": "LACA PARA PISO PLAVICON PISOACRIL TRANSPARENTE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000885",
+    "code": "000885",
+    "description": "FONDO CONVERTIDOR DE OXIDO COLORIN SEAKROME NARANJA X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "008420",
+    "code": "008420",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE GRIS X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009715",
+    "code": "009715",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE NEGRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002307",
+    "code": "002307",
+    "description": "ESMALTE SINTETICO TERSUAVE ALTA TEMPERATURA ALUMINIO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000289",
+    "code": "000289",
+    "description": "FONDO PARA MADERA ALBA AL AGUA BLANCO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001750",
+    "code": "001750",
+    "description": "REMOVEDOR PETRILAC AUTOBRILLO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000171",
+    "code": "000171",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019138",
+    "code": "019138",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE V. NOCHE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019129",
+    "code": "019129",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE G. HIELO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019133",
+    "code": "019133",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE M. CHAMPAGNE (CASTOR) X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "018610",
+    "code": "018610",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CARMIN X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019126",
+    "code": "019126",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE G. ESPACIAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019141",
+    "code": "019141",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE TRAFUL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019143",
+    "code": "019143",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE A. MARINO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "019145",
+    "code": "019145",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE OCRE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000343",
+    "code": "000343",
+    "description": "LACA UREICA COLVINIL SATINADA TRANSPARENTE C/CAT. X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "024255",
+    "code": "024255",
+    "description": "BARNIZ PARA MADERA EXTERIOR ALBATROS BRILLANTE DOBLE VIDA NOGAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001248",
+    "code": "001248",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE P X  0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002861",
+    "code": "002861",
+    "description": "ESMALTE SINTETICO TERSPRAY SECADO RAPIDO BERMELLON X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002860",
+    "code": "002860",
+    "description": "ESMALTE SINTETICO TERSPRAY SECADO RAPIDO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002863",
+    "code": "002863",
+    "description": "ESMALTE SINTETICO TERSPRAY SECADO RAPIDO AMAR.CROM. X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000158",
+    "code": "000158",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007106",
+    "code": "007106",
+    "description": "PROTECTOR PARA PISO BRIKOL ROJO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007102",
+    "code": "007102",
+    "description": "PROTECTOR PARA PISO BRIKOL INCOLORO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007104",
+    "code": "007104",
+    "description": "PROTECTOR PARA PISO BRIKOL NEGRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010806",
+    "code": "010806",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC BRILLANTE CRISTAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010808",
+    "code": "010808",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC BRILLANTE NOGAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010809",
+    "code": "010809",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC BRILLANTE ROBLE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000261",
+    "code": "000261",
+    "description": "ESMALTE SINTETICO PARA PIZARRON ALBA MATE VERDE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010502",
+    "code": "010502",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO NEGRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010713",
+    "code": "010713",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO AZUL BANDERA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "039704",
+    "code": "039704",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE AMARILLO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "039702",
+    "code": "039702",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE BERMELLON X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "086443",
+    "code": "086443",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE AZUL MARINO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007046",
+    "code": "007046",
+    "description": "ESMALTE SINTETICO PARA PISO BRIKOL ALTO TRANSITO NEGRO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007048",
+    "code": "007048",
+    "description": "ESMALTE SINTETICO PARA PISO BRIKOL ALTO TRANSITO ROJO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007042",
+    "code": "007042",
+    "description": "ESMALTE SINTETICO PARA PISO BRIKOL ALTO TRANSITO BLANCO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007040",
+    "code": "007040",
+    "description": "ESMALTE SINTETICO PARA PISO BRIKOL ALTO TRANSITO AMARILLO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007044",
+    "code": "007044",
+    "description": "ESMALTE SINTETICO PARA PISO BRIKOL ALTO TRANSITO GRIS X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007050",
+    "code": "007050",
+    "description": "ESMALTE SINTETICO PARA PISO BRIKOL ALTO TRANSITO VERDE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "021308",
+    "code": "021308",
+    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE AZUL PROFUNDO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001049",
+    "code": "001049",
+    "description": "BTE.HAMMERITE AMARILLO X 0,800",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001092",
+    "code": "001092",
+    "description": "BTE.HAMMERITE GRIS X 0,800",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001087",
+    "code": "001087",
+    "description": "BTE.HAMMERITE AZUL OSCURO X 0,800",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001141",
+    "code": "001141",
+    "description": "BTE.HAMMERITE MARRON X 0,800",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001090",
+    "code": "001090",
+    "description": "BTE.HAMMERITE BERMELLON X 0,800",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009718",
+    "code": "009718",
+    "description": "ESM.AGUA ALBA MARRON VILLAGE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009729",
+    "code": "009729",
+    "description": "ESM.AGUA ALBA GRIS PERSA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009730",
+    "code": "009730",
+    "description": "ESM.AGUA ALBA VERDE ALPINO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000114",
+    "code": "000114",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007094",
+    "code": "007094",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA SATINADO NATURAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007132",
+    "code": "007132",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA SATINADO CEDRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009330",
+    "code": "009330",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE ALUMINIO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "008438",
+    "code": "008438",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE VERDE NOCHE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "008430",
+    "code": "008430",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE VERDE INGLES X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "008443",
+    "code": "008443",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE AZUL MARINO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "009701",
+    "code": "009701",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007253",
+    "code": "007253",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL NATURAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007251",
+    "code": "007251",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL INCOLORO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "088025",
+    "code": "088025",
+    "description": "ESMALTE SINTETICO MARTILUX MARTILLADO AZUL OSCURO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "088017",
+    "code": "088017",
+    "description": "ESMALTE SINTETICO MARTILUX MARTILLADO VERDE ESMERALDA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002183",
+    "code": "002183",
+    "description": "ESMALTE AL AGUA SATINOL SATINADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003343",
+    "code": "003343",
+    "description": "ESPUMA POLIURETANO WEBER X 0,750",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "005205",
+    "code": "005205",
+    "description": "ESMALTE SINTETICO TERSILUX FERROMICACEO MATE GRAFITO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "018617",
+    "code": "018617",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE ALUMINIIO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007058",
+    "code": "007058",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE CLASSIC BRILLANTE ROBLE X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007056",
+    "code": "007056",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE CLASSIC BRILLANTE NATURAL X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000775",
+    "code": "000775",
+    "description": "ESMALTE SINTETICO SATINOL 2EN1 SATINADO BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001000",
+    "code": "001000",
+    "description": "CLEAR BICAPA MMB X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "026717",
+    "code": "026717",
+    "description": "ESMALTE SINTETICO ALBA ALTA TEMPERATURA ALUMINIO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010501",
+    "code": "010501",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO BLANCO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010506",
+    "code": "010506",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO BERMELLON X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000191",
+    "code": "000191",
+    "description": "MART.HAMMERITE AZUL OSC.X 0,800",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001136",
+    "code": "001136",
+    "description": "FORJA HAMMERITE VERDE X 0,800",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010505",
+    "code": "010505",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO NARANJA FIAT X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "010507",
+    "code": "010507",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO AMAR.CROMO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "053851",
+    "code": "053851",
+    "description": "PINTURA A LA TIZA ALBA RENOVA CHALK MATE GRIS NOBLE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "053904",
+    "code": "053904",
+    "description": "PINTURA A LA TIZA ALBA RENOVA CHALK MATE MARFIL ELOCUENTE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "053858",
+    "code": "053858",
+    "description": "PINTURA A LA TIZA ALBA RENOVA CHALK MATE BIZCOCHO ENCANTADO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "053903",
+    "code": "053903",
+    "description": "PINTURA A LA TIZA ALBA RENOVA CHALK MATE CAMINO URBANO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "053906",
+    "code": "053906",
+    "description": "PINTURA A LA TIZA ALBA RENOVA CHALK MATE ESCONDITE SILENCIOSO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "053850",
+    "code": "053850",
+    "description": "PINTURA A LA TIZA ALBA RENOVA CHALK MATE SENSACION FELIZ X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "053905",
+    "code": "053905",
+    "description": "PINTURA A LA TIZA ALBA RENOVA CHALK MATE TROFEO DE PLATA X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001387",
+    "code": "001387",
+    "description": "M01.17 MASILLA POLIESTER ACS EVOLUTION X 1.000",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007154",
+    "code": "007154",
+    "description": "SELLADOR PARA PARQUET CETOL BALANCE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002997",
+    "code": "002997",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 FORJA GRIS X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003001",
+    "code": "003001",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 MARTILLADO GRIS X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "003005",
+    "code": "003005",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 MARTILLADO NEGRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002999",
+    "code": "002999",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 FORJA NEGRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001747",
+    "code": "001747",
+    "description": "PROTECTOR PARA PISO PETRILAC CLINSY TRANSPARENTE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001748",
+    "code": "001748",
+    "description": "PROTECTOR PARA PISO PETRILAC CLINSY NEGRO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001749",
+    "code": "001749",
+    "description": "PROTECTOR PARA PISO PETRILAC CLINSY ROJO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007082",
+    "code": "007082",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA BRILLANTE CRISTAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007084",
+    "code": "007084",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA BRILLANTE NATURAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000608",
+    "code": "000608",
+    "description": "BARNIZ PARA MADERA INTERIOR CRISTALBA AL AGUA BRILLANTE NATURAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000670",
+    "code": "000670",
+    "description": "PARCHE PLASTICO ZEOCAR FIBRADA X 1,5 (21)",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002316",
+    "code": "002316",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE ORO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004314",
+    "code": "004314",
+    "description": "ESMALTE POLIURETANO TERSUAVE INDULAC BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002888",
+    "code": "002888",
+    "description": "IMPRIMACION EPOXI TERSUAVE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002248",
+    "code": "002248",
+    "description": "ESMALTE EPOXI TERSUAVE INDULAC BLANCO X  1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000786",
+    "code": "000786",
+    "description": "LACA MELACRILICA PETRILAC SEMIMATE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "007160",
+    "code": "007160",
+    "description": "IMPREGNANTE PARA PARQUET CETOL VITRO BRILLANTE NATURAL X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "005476",
+    "code": "005476",
+    "description": "PINTURA BROCHABLE CHALKED RUST-OLEUM EXTERIOR MATE AZUL PROFUNDO X 0,887(365432)",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "000105",
+    "code": "000105",
+    "description": "ESMALTE PARA AZULEJOS ALBA AL AGUA BRILLANTE X 0,900",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001416",
+    "code": "001416",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR OLIVO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001407",
+    "code": "001407",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR CEREZO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001404",
+    "code": "001404",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR EBANO X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "001413",
+    "code": "001413",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR ROBLE X 1",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "004027",
+    "code": "004027",
+    "description": "ESMALTE POLIURETANO VARATHANE TRIPLE CAPA SATINADO X 0,946(305510)",
+    "stock": 5,
+    "price": 7500
+  },
+  {
+    "id": "002297",
+    "code": "002297",
+    "description": "MARBLE FINO BCO X 6",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003278",
+    "code": "003278",
+    "description": "REVIVIDOR REVEAR P/TEXT X 4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003298",
+    "code": "003298",
+    "description": "REVEPRIM IMPRIMACIÏ¿½N X 4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "001274",
+    "code": "001274",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE M X 3,600",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "001289",
+    "code": "001289",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE M X 3,600",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "004387",
+    "code": "004387",
+    "description": "REVOQUES MANUALES WEBER MIX I X  5 KG",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "002689",
+    "code": "002689",
+    "description": "ESM SINT ULTRARRAP NARANJA X  4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "004810",
+    "code": "004810",
+    "description": "PINTURA PARA PILETA RESOL CRISTAFLEX BLANCO X  4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003072",
+    "code": "003072",
+    "description": "STUCCADO REV.AC CITRINA X 5",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003074",
+    "code": "003074",
+    "description": "STUCCADO REV.AC ESMERALDA X 5",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003076",
+    "code": "003076",
+    "description": "STUCCADO REV.AC GRANATE X 5",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003078",
+    "code": "003078",
+    "description": "STUCCADO REV.AC JASPE X 5",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003080",
+    "code": "003080",
+    "description": "STUCCADO REV.AC RUBI X 5",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003082",
+    "code": "003082",
+    "description": "STUCCADO REV.AC SAFIRO X 5",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "002166",
+    "code": "002166",
+    "description": "NATURAL STONE GRAY X 6",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003782",
+    "code": "003782",
+    "description": "MASILLA PARA YESO TERSUAVE X  6",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "020503",
+    "code": "020503",
+    "description": "DILUYENTE AGUARRAS PARA ESMALTE X   4 (PET)",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "002157",
+    "code": "002157",
+    "description": "LATEX INTERIOR PLAVICON PERFORMA MATE BLANCO X  4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "001354",
+    "code": "001354",
+    "description": "ENDUIDO INTERIOR TERSUAVE X  4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "004802",
+    "code": "004802",
+    "description": "HIDROFUGO ORGANICO EN PASTA CERESITA WEBER X  4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "001752",
+    "code": "001752",
+    "description": "FIJADOR PARA PARED TERSUAVE AL AGUA X  4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "001342",
+    "code": "001342",
+    "description": "LATEX INTERIOR TERSINOL BLANCO X  4",
+    "stock": 5,
+    "price": 10000
+  },
+  {
+    "id": "003697",
+    "code": "003697",
+    "description": "LATEX INTERIOR COLORIN TITANIO PRO BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "004120",
+    "code": "004120",
+    "description": "LATEX INTERIOR/EXTERIOR COLORIN RINDEMAX MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003303",
+    "code": "003303",
+    "description": "LATEX INTERIOR/EXTERIOR WEBERPINT MATE  BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "020707",
+    "code": "020707",
+    "description": "THINNER SELLO DE ORO X   4 (PET)",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001151",
+    "code": "001151",
+    "description": "LATEX INTERIOR/EXTERIOR PLAVIPINT MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "021046",
+    "code": "021046",
+    "description": "SOLVENTE INDUSTRIAL X   4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "004737",
+    "code": "004737",
+    "description": "LATEX INTERIOR PLAVICON MATE BASE MEDIANO X  3,600",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "000625",
+    "code": "000625",
+    "description": "FIJADOR PARA PARED ALBA AL AGUA X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001806",
+    "code": "001806",
+    "description": "LATEX INTERIOR/EXTERIOR TERSINOL BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001625",
+    "code": "001625",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA HOGAR BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "000412",
+    "code": "000412",
+    "description": "ACEITE DE LINO MAGIPLAST X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001346",
+    "code": "001346",
+    "description": "LATEX PARA CIELORRASOS TERSEN MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "020997",
+    "code": "020997",
+    "description": "DILUYENTE PARA PILETA Y DEMARCACION VIAL X   4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003350",
+    "code": "003350",
+    "description": "LATEX INTERIOR WEBERPINT MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003475",
+    "code": "003475",
+    "description": "PASTINA ALTA PRESTACIONES WEBER PRESTIGE CENIZA X 5",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "020887",
+    "code": "020887",
+    "description": "DILUYENTE PARA CEMENTO DE CONTACTO X   4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001870",
+    "code": "001870",
+    "description": "LATEX INTERIOR ALBA CONSTRUCTOR MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "000030",
+    "code": "000030",
+    "description": "LATEX INTERIOR COLORIN ACRYLATEX MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "004733",
+    "code": "004733",
+    "description": "LATEX INTERIOR PLAVICON MATE BASE PASTEL X  3,600",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001261",
+    "code": "001261",
+    "description": "LATEX INTERIOR ALBACRYL MATE BASE F X  3,600",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "021165",
+    "code": "021165",
+    "description": "DILUYENTE POLIURETANICO PLUS X   4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001954",
+    "code": "001954",
+    "description": "LATEX INTERIOR LAVABLE PLAVICON MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "000033",
+    "code": "000033",
+    "description": "LATEX PARA CIELORRASOS COLORIN MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "001267",
+    "code": "001267",
+    "description": "LATEX INTERIOR ALBACRYL MATE BASE P X  3,600",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "002606",
+    "code": "002606",
+    "description": "BARNIZ MARINO PARA MADERA TERSUAVE BRILLANTE X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003645",
+    "code": "003645",
+    "description": "IMPERMEABILIZANTE PARA TECHOS Y MUROS COLORIN TITANIO PRO BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "002163",
+    "code": "002163",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA CONSTRUCTOR MATE BLANCO X  4",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003590",
+    "code": "003590",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO FINO BLANCO X  6",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003607",
+    "code": "003607",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO MEDIO BLANCO X  6",
+    "stock": 5,
+    "price": 15000
+  },
+  {
+    "id": "003588",
+    "code": "003588",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO FINO BASE INTENSO X  6",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "003605",
+    "code": "003605",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO MEDIO BASE INTENSO X  6",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000336",
+    "code": "000336",
+    "description": "LATEX INTERIOR ALBACRYL MATE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000657",
+    "code": "000657",
+    "description": "MASILLA POLIESTER ZEOCAR X 3,25 (33)",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000965",
+    "code": "000965",
+    "description": "LATEX INTERIOR/EXTERIOR COLORIN ACRYLATEX MATE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002089",
+    "code": "002089",
+    "description": "BARNIZ PARA MADERA INTERIOR TERSUAVE SATINADO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000585",
+    "code": "000585",
+    "description": "REMOVEDOR GEL X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001831",
+    "code": "001831",
+    "description": "PROTECTOR PARA LADRILLO TERSIDRYL AL AGUA SEMI MATE CON PELICULA X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001339",
+    "code": "001339",
+    "description": "LATEX INTERIOR TERSUAVE LAVABLE MATE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002585",
+    "code": "002585",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE CHOCOLATE X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002587",
+    "code": "002587",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE GRIS CEMENTO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002594",
+    "code": "002594",
+    "description": "LATEX EXTERIOR TERSUAVE LAVABLE VERDE FORESTA X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000641",
+    "code": "000641",
+    "description": "MORTERO ANTIHUMEDAD RECUBLOCK CIMIENTOS SINTEPLAST X  5",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001982",
+    "code": "001982",
+    "description": "PROTECTOR PARA LADRILLO PLAVIPINT SEMIMATE CON PELICULA INCOLORO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005591",
+    "code": "005591",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA CONSTRUCTOR MATE AMARILLO FUEGUINO X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005595",
+    "code": "005595",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA CONSTRUCTOR MATE BEIGE URBANO X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005601",
+    "code": "005601",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA CONSTRUCTOR MATE NARANJA CAFAYATE X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000119",
+    "code": "000119",
+    "description": "LATEX PARA CIELORRASOS ALBA MATE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001966",
+    "code": "001966",
+    "description": "PROTECTOR PARA LADRILLO TERSIDRYL AL AGUA MATE SIN PELICULA X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "004709",
+    "code": "004709",
+    "description": "IMPERMEABILIZANTE PARA FRENTES PLAVICON BASE PASTEL X  4,800",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002765",
+    "code": "002765",
+    "description": "IMPREGNANTE PARA MADERA TERSUAVE SATINADO NOGAL X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002762",
+    "code": "002762",
+    "description": "IMPREGNANTE PARA MADERA TERSUAVE SATINADO CEDRO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005502",
+    "code": "005502",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN NARANJA X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005503",
+    "code": "005503",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN AMARILLO X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005507",
+    "code": "005507",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN TURQUESA X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005508",
+    "code": "005508",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN VERDE X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005509",
+    "code": "005509",
+    "description": "LATEX INTERIOR/EXTERIOR TERSEN VIOLETA X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "004163",
+    "code": "004163",
+    "description": "ESMALTE SINTETICO TERSUAVE TRIPLE ACCION DECOLUX BRILLANTE AZUL X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001233",
+    "code": "001233",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE T X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000650",
+    "code": "000650",
+    "description": "PINTURA ASFALTICA SECADO RAPIDO MEGAFLEX X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001780",
+    "code": "001780",
+    "description": "LATEX INTERIOR RECUPLAST MATE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "004767",
+    "code": "004767",
+    "description": "LATEX INTERIOR/EXTERIOR WEBERPINT MATE MARRON BELGICA X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001509",
+    "code": "001509",
+    "description": "ESMALTE SINTETICO TERSUAVE BRILLANTE BASE D X  3,720",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "031460",
+    "code": "031460",
+    "description": "INDALBA GRIS CLARO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005148",
+    "code": "005148",
+    "description": "LATEX INTERIOR PLAVICON HABITAT LISTO PARA USAR MATE CORAL X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "004721",
+    "code": "004721",
+    "description": "IMPERMEABILIZANTE PARA MUROS PLAVICON BASE PASTEL X  4,800",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001855",
+    "code": "001855",
+    "description": "PRESERVADOR MADERAS TERSUAVE LISTO PARA USAR X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000464",
+    "code": "000464",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS ALBAFRENT MATE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002659",
+    "code": "002659",
+    "description": "ESM SINT IND NEGRO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001947",
+    "code": "001947",
+    "description": "IMPERMEABILIZANTE PARA MUROS PLAVICON MATE BLANCO X  5",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001209",
+    "code": "001209",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE T X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "003706",
+    "code": "003706",
+    "description": "DESOXIDANTE ZEOCAR X  5 (10)",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002351",
+    "code": "002351",
+    "description": "PROTECTOR PARA LADRILLO TERSUAVE IMPRECOL SATINADO CERAMICO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "004051",
+    "code": "004051",
+    "description": "ESMALTE SINTETICO TERSUAVE TRIPLE ACCION DECOLUX BRILLANTE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002605",
+    "code": "002605",
+    "description": "FONDO PARA MADERA TERSUAVE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "040905",
+    "code": "040905",
+    "description": "LATEX EXTERIOR DURALBA MATE AZUL X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001736",
+    "code": "001736",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE T X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000386",
+    "code": "000386",
+    "description": "LATEX INTERIOR ALBACRYL RINDE MAS MATE BLANCO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "004781",
+    "code": "004781",
+    "description": "LATEX INTERIOR/EXTERIOR WEBERPINT MATE ROJO TURQUIA X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001237",
+    "code": "001237",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE F X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001213",
+    "code": "001213",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE F X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001505",
+    "code": "001505",
+    "description": "ESMALTE SINTETICO TERSUAVE BRILLANTE BASE M X  3,760",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001396",
+    "code": "001396",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 SATINADO NEGRO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "003678",
+    "code": "003678",
+    "description": "IMPERMEABILIZANTE PARA TECHOS THERMOCONTROL FIBRADO TEJA X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002615",
+    "code": "002615",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE NEGRO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002618",
+    "code": "002618",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARRON X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002620",
+    "code": "002620",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS OSCURO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002609",
+    "code": "002609",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BEIGE X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "004890",
+    "code": "004890",
+    "description": "IMPREGNANTE PENTA STAIN + INSECTICIDA SATINADO CAOBA X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "000012",
+    "code": "000012",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE NEGRO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "002610",
+    "code": "002610",
+    "description": "ESMALTE SINTETICO PARA PIZARRON TERSUAVE MATE NEGRO X 4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005615",
+    "code": "005615",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE NEGRO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005644",
+    "code": "005644",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE VERDE X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005699",
+    "code": "005699",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE ROJO X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005611",
+    "code": "005611",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE MARFIL X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "005627",
+    "code": "005627",
+    "description": "FONDO ANTIOXIDO TERSUAVE MATE GRIS X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001163",
+    "code": "001163",
+    "description": "PROTECTOR SUBCARROCERIA NODULO UNDERLASTIC ANTIRRUIDO/SUBCARROC X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001734",
+    "code": "001734",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE F X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "003363",
+    "code": "003363",
+    "description": "IMPREGNANTE PARA MADERA TERSUAVE BRILLANTE CRISTAL X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "003361",
+    "code": "003361",
+    "description": "IMPREGNANTE PARA MADERA TERSUAVE BRILLANTE CAOBA X  4",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "003227",
+    "code": "003227",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BASE T X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001221",
+    "code": "001221",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE P X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "001245",
+    "code": "001245",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE P X  3,600",
+    "stock": 5,
+    "price": 22000
+  },
+  {
+    "id": "003811",
+    "code": "003811",
+    "description": "LACA POLIACRILICA TERSUAVE BRILLANTE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001730",
+    "code": "001730",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE P X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002679",
+    "code": "002679",
+    "description": "ESM SINT IND VDE INGLES 030 X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003055",
+    "code": "003055",
+    "description": "PINTURA PARA PILETA TERSUAVE AL AGUA BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003015",
+    "code": "003015",
+    "description": "PINTURA PARA PILETA TERSUAVE AL AGUA AZUL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000406",
+    "code": "000406",
+    "description": "LATEX EXTERIOR DURALBA MATE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003493",
+    "code": "003493",
+    "description": "DEMARCACION VIAL TERSUAVE ALQUIDICA AMARILLO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "040940",
+    "code": "040940",
+    "description": "LATEX EXTERIOR DURALBA MATE NEGRO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "040901",
+    "code": "040901",
+    "description": "LATEX EXTERIOR DURALBA MATE GRIS CEMENTO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "040903",
+    "code": "040903",
+    "description": "LATEX EXTERIOR DURALBA MATE MARRON X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "040904",
+    "code": "040904",
+    "description": "LATEX EXTERIOR DURALBA MATE OCRE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "040906",
+    "code": "040906",
+    "description": "LATEX EXTERIOR DURALBA MATE VERDE MUSGO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "040908",
+    "code": "040908",
+    "description": "LATEX EXTERIOR DURALBA MATE ROJO TANINO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000197",
+    "code": "000197",
+    "description": "FONDO ANTIOXIDO ALBA ROJO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002623",
+    "code": "002623",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE CELESTE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002624",
+    "code": "002624",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARFIL SEDA X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002626",
+    "code": "002626",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE GRIS ESPACIAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002630",
+    "code": "002630",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE INGLES X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002634",
+    "code": "002634",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE ILUSION X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002638",
+    "code": "002638",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE VERDE NOCHE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002641",
+    "code": "002641",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE TRAFUL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002643",
+    "code": "002643",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AZUL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002633",
+    "code": "002633",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE MARFIL CHAMPAGNE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000391",
+    "code": "000391",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000111",
+    "code": "000111",
+    "description": "LATEX INTERIOR ALBALATEX MATE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003177",
+    "code": "003177",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE T X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019221",
+    "code": "019221",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE G. VISON X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003224",
+    "code": "003224",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BASE F X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001307",
+    "code": "001307",
+    "description": "IMPREGNANTE PARA MADERA PLAVICON LASUR SATINADO ROBLE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001333",
+    "code": "001333",
+    "description": "IMPREGNANTE PARA MADERA PLAVICON LASUR SATINADO NATURAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001365",
+    "code": "001365",
+    "description": "IMPREGNANTE PARA MADERA PLAVICON LASUR SATINADO NOGAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001362",
+    "code": "001362",
+    "description": "IMPREGNANTE PARA MADERA PLAVICON LASUR SATINADO CAOBA X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001835",
+    "code": "001835",
+    "description": "LATEX INTERIOR TERSUAVE LAVABLE SATINADO BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000022",
+    "code": "000022",
+    "description": "FONDO PARA MADERA COLORIN BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000533",
+    "code": "000533",
+    "description": "MASILLA PLASTICA ZEOCAR FINISH X 4 (48)",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001280",
+    "code": "001280",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE T X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001384",
+    "code": "001384",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 SATINADO BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000833",
+    "code": "000833",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 BRILLANTE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003218",
+    "code": "003218",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BASE P X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002604",
+    "code": "002604",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AMARILLO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002656",
+    "code": "002656",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE AMAR.MED. X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002601",
+    "code": "002601",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 BRILLANTE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001292",
+    "code": "001292",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE T X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002312",
+    "code": "002312",
+    "description": "DEMARCACION VIAL TERSUAVE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000015",
+    "code": "000015",
+    "description": "ESMALTE SINTETICO TERSUAVE 2EN1 MATE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003730",
+    "code": "003730",
+    "description": "ESMALTE SINTETICO TERSUAVE DOBLE ACCION VERDE INGLES X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019236",
+    "code": "019236",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CREMA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019237",
+    "code": "019237",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE CASTANO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000690",
+    "code": "000690",
+    "description": "ESMALTE SINTETICO COLORIN TITANIO BRILLANTE BLANCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000296",
+    "code": "000296",
+    "description": "PROTECTOR PARA LADRILLO COLORIN NATURAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000294",
+    "code": "000294",
+    "description": "PROTECTOR PARA LADRILLO COLORIN CERAMICO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000018",
+    "code": "000018",
+    "description": "FONDO ANTIOXIDO COLORIN ROJO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003173",
+    "code": "003173",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE F X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000177",
+    "code": "000177",
+    "description": "LATEX INTERIOR ALBA ANTIHONGO BANO/COCINA BLANCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004870",
+    "code": "004870",
+    "description": "IMPREGNANTE PENTA STAIN + INSECTICIDA BRILLANTE CEDRO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001265",
+    "code": "001265",
+    "description": "IMPREGNANTE PARA MADERA PLAVICON LASUR BRILLANTE CAOBA X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000949",
+    "code": "000949",
+    "description": "FIJADOR PARA PARED ALBA 2EN1 AL AGUARRAS BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000481",
+    "code": "000481",
+    "description": "PINTURA PARA PILETA RESOL CRISTAFLEX CELESTE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001846",
+    "code": "001846",
+    "description": "FONDO PARA GALVANIZADO TERSUAVE GALVANIC GRIS X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000244",
+    "code": "000244",
+    "description": "PINTURA PARA PILETA ALBA AL AGUA MATE CELESTE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000247",
+    "code": "000247",
+    "description": "PINTURA PARA PILETA ALBA AL AGUA MATE BLANCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000866",
+    "code": "000866",
+    "description": "PINTURA PARA PILETA ALBA AL AGUA MATE CELESTE PROFUNDO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001283",
+    "code": "001283",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE F X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003101",
+    "code": "003101",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003169",
+    "code": "003169",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE P X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000201",
+    "code": "000201",
+    "description": "FONDO PARA MADERA ALBA BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "031256",
+    "code": "031256",
+    "description": "INDALBA AMARILLO MEDIANO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "031264",
+    "code": "031264",
+    "description": "INDALBA ROJO AGRICOLA X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "031265",
+    "code": "031265",
+    "description": "INDALBA AMARILLO VIAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "031280",
+    "code": "031280",
+    "description": "INDALBA ROJO SENAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000368",
+    "code": "000368",
+    "description": "CONVERSOL ROJO X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003682",
+    "code": "003682",
+    "description": "CONVERSOL AZUL X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003685",
+    "code": "003685",
+    "description": "CONVERSOL BEIGE X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003686",
+    "code": "003686",
+    "description": "CONVERSOL VERDE X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007896",
+    "code": "007896",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC SATINADO CRISTAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007897",
+    "code": "007897",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC SATINADO NATURAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001294",
+    "code": "001294",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE F X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002346",
+    "code": "002346",
+    "description": "DEMARCACION VIAL TERSUAVE AMARILLO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "049821",
+    "code": "049821",
+    "description": "LATEX PARA PISO ALBA MATE ROJO COLONIAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001235",
+    "code": "001235",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE T X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002511",
+    "code": "002511",
+    "description": "ESMALTE AL AGUA SATINOL SATINADO BASE T X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007117",
+    "code": "007117",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE INTERIOR BRILLANTE CRISTAL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007119",
+    "code": "007119",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE INTERIOR SATINADO CRISTAL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000975",
+    "code": "000975",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN TOQUE DE LUZ MATE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001438",
+    "code": "001438",
+    "description": "BTE.HAMMERITE VERDE OSC.X 2,400",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001050",
+    "code": "001050",
+    "description": "BTE.HAMMERITE AMARILLO X 2,400",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001088",
+    "code": "001088",
+    "description": "BTE.HAMMERITE AZUL OSCURO X 2,400",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001091",
+    "code": "001091",
+    "description": "BTE.HAMMERITE BERMELLON X 2,400",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001142",
+    "code": "001142",
+    "description": "BTE.HAMMERITE MARRON X 2,400",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009649",
+    "code": "009649",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE MARRON/CASTANO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009653",
+    "code": "009653",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE TOSTADO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009666",
+    "code": "009666",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE CAFE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019209",
+    "code": "019209",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BEIGE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019215",
+    "code": "019215",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE NEGRO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019219",
+    "code": "019219",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE V. CLARO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000053",
+    "code": "000053",
+    "description": "PINTURA PARA PILETA COLORIN AL AGUA NATACION BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000056",
+    "code": "000056",
+    "description": "PINTURA PARA PILETA COLORIN AL AGUA NATACION AZUL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001271",
+    "code": "001271",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BASE P X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000205",
+    "code": "000205",
+    "description": "BARNIZ PARA MADERA EXTERIOR ALBATROS BRILLANTE NATURAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002512",
+    "code": "002512",
+    "description": "ESMALTE SINTETICO TERSUAVE FERRO MICACEO PLATA INCAICA X 2,500",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003087",
+    "code": "003087",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE AMARILLO LATINO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003089",
+    "code": "003089",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE VERDE EXOTICO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003093",
+    "code": "003093",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE VIOLETA ESTELAR X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003097",
+    "code": "003097",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE LEYENDA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003099",
+    "code": "003099",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE GRIS CINCEL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000376",
+    "code": "000376",
+    "description": "PROTECTOR PARA LADRILLO DURALBA SATINADO CON PELICULA TRANSPARENTE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000684",
+    "code": "000684",
+    "description": "PROTECTOR PARA LADRILLO DURALBA SATINADO CON PELICULA CERAMICO  X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002438",
+    "code": "002438",
+    "description": "BARNIZ PARA MADERA TERSUAVE ACUOSO BRILLANTE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003165",
+    "code": "003165",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000162",
+    "code": "000162",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO NEGRO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003059",
+    "code": "003059",
+    "description": "PINTURA PARA PILETA TERSUAVE AL SOLVENTE CELESTE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001286",
+    "code": "001286",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BASE P X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002353",
+    "code": "002353",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE BASE MF X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000352",
+    "code": "000352",
+    "description": "ESMALTE SINTETICO PLAVICON 3EN1 BRILLANTE ALUMINIO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002509",
+    "code": "002509",
+    "description": "ESMALTE AL AGUA SATINOL SATINADO BASE MF X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001257",
+    "code": "001257",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE F X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009605",
+    "code": "009605",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE GRIS HIELO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009619",
+    "code": "009619",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE INGLES X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009623",
+    "code": "009623",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AZUL ADRIATICO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009631",
+    "code": "009631",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE JADE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009632",
+    "code": "009632",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE NOCHE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009641",
+    "code": "009641",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE MARFIL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009659",
+    "code": "009659",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE OCEANICO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003073",
+    "code": "003073",
+    "description": "PINTURA PARA PILETA TERSUAVE AL SOLVENTE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001927",
+    "code": "001927",
+    "description": "IMPERMEABLIZANTE ANTIHUMEDAD TERSEC X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002879",
+    "code": "002879",
+    "description": "ESMALTE SINTETICO TERSPRAY SECADO RAPIDO VERDE J.D X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004970",
+    "code": "004970",
+    "description": "PINTURA PARA PILETA PLAVICON AL AGUA MATE VERDE ESMERALDA X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "086518",
+    "code": "086518",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE MARRON X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "086526",
+    "code": "086526",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE GRIS ESPACIAL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "086533",
+    "code": "086533",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE MARFIL CHAMPAGNE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "086541",
+    "code": "086541",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE TRAFUL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000042",
+    "code": "000042",
+    "description": "BARNIZ PARA MADERA INTERIOR CRISTALBA PU MATE NATURAL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001249",
+    "code": "001249",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE P X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007186",
+    "code": "007186",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE CLASSIC SATINADO NOGAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "008518",
+    "code": "008518",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE MARRON X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009607",
+    "code": "009607",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE NARANJA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009614",
+    "code": "009614",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AMARILLO MEDIANO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009663",
+    "code": "009663",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE AMARILLO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "062052",
+    "code": "062052",
+    "description": "SATINOL AMARILLO CANARIAS X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "062057",
+    "code": "062057",
+    "description": "SATINOL OCRE MADEIRA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "062062",
+    "code": "062062",
+    "description": "SATINOL VERDE GUAJIRA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "062060",
+    "code": "062060",
+    "description": "SATINOL AZUL CAPRI X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "062061",
+    "code": "062061",
+    "description": "SATINOL VERDE PETREO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000172",
+    "code": "000172",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019224",
+    "code": "019224",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE M. SEDA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019226",
+    "code": "019226",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE G. ESPACIAL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "019245",
+    "code": "019245",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE OCRE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "021401",
+    "code": "021401",
+    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE BLANCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "021404",
+    "code": "021404",
+    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE CELESTE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "021408",
+    "code": "021408",
+    "description": "PINTURA PARA PILETA ALBA AL CAUCHO MATE AZUL PROFUNDO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000175",
+    "code": "000175",
+    "description": "MART.HAMMERITE VERDE OSC.X 2,400",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000192",
+    "code": "000192",
+    "description": "MART.HAMMERITE AZUL OSC.X 2,400",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003812",
+    "code": "003812",
+    "description": "PINTURA PARA PILETA RESOL AL SOLVENTE CELESTE TRAFUL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003813",
+    "code": "003813",
+    "description": "PINTURA PARA PILETA RESOL AL SOLVENTE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000305",
+    "code": "000305",
+    "description": "IMPRESION UNIVERSAL MMB GRIS X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000159",
+    "code": "000159",
+    "description": "ESMALTE SINTETICO SATINOL SATINADO BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002607",
+    "code": "002607",
+    "description": "ESMALTE SINTETICO TERSUAVE ALTA TEMPERATURA ALUMINIO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003700",
+    "code": "003700",
+    "description": "ALBAVIAL ACRILICO SOLVENTE BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "010819",
+    "code": "010819",
+    "description": "IMPREGNANTE PARA MADERA CETOL CLASSIC BRILLANTE ROBLE X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000115",
+    "code": "000115",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000841",
+    "code": "000841",
+    "description": "ESMALTE SINTETICO SATINOL 2EN1 SATINADO NEGRO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000243",
+    "code": "000243",
+    "description": "BARNIZ PARA MADERA EXTERIOR ALBATROS BRILLANTE DOBLE VIDA INCOLORO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007103",
+    "code": "007103",
+    "description": "PROTECTOR PARA PISO BRIKOL INCOLORO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007107",
+    "code": "007107",
+    "description": "PROTECTOR PARA PISO BRIKOL ROJO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007261",
+    "code": "007261",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL INCOLORO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007263",
+    "code": "007263",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL NATURAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007264",
+    "code": "007264",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL CERAMICO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002871",
+    "code": "002871",
+    "description": "ESMALTE SINTETICO TERSPRAY SECADO RAPIDO BERMELLON X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000344",
+    "code": "000344",
+    "description": "LACA UREICA COLVINIL SATINADA TRANSPARENTE C/CAT. X  3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007045",
+    "code": "007045",
+    "description": "ESMALTE SINTETICO PARA PISO BRIKOL ALTO TRANSITO GRIS X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "008541",
+    "code": "008541",
+    "description": "ESMALTE AL AGUA ALBALUX BRILLANTE TRAFUL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "089017",
+    "code": "089017",
+    "description": "ESMALTE SINTETICO MARTILUX MARTILLADO VERDE ESMERALDA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "089025",
+    "code": "089025",
+    "description": "ESMALTE SINTETICO MARTILUX MARTILLADO AZUL OSCURO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002184",
+    "code": "002184",
+    "description": "ESMALTE AL AGUA SATINOL SATINADO BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "010602",
+    "code": "010602",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO NEGRO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "010813",
+    "code": "010813",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO AZUL BANDERA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "039804",
+    "code": "039804",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE AMARILLO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "086543",
+    "code": "086543",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 BRILLANTE AZUL MARINO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000240",
+    "code": "000240",
+    "description": "MADERALBA SATINADA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "005206",
+    "code": "005206",
+    "description": "ESMALTE SINTETICO TERSILUX FERROMICACEO MATE GRAFITO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "005208",
+    "code": "005208",
+    "description": "ESMALTE SINTETICO TERSILUX FERROMICACEO MATE PLATA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "009918",
+    "code": "009918",
+    "description": "ESM.AGUA ALBA MARRON VILLAGE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007079",
+    "code": "007079",
+    "description": "IMPREGNANTE PARA PISO CETOL DECK BALANCE TECA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002611",
+    "code": "002611",
+    "description": "ESMALTE SINTETICO TERSUAVE ALTA TEMPERATURA BLANCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "018702",
+    "code": "018702",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BERMELLON X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "018704",
+    "code": "018704",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE AMARILLO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "018717",
+    "code": "018717",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE ALUMINIIO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007057",
+    "code": "007057",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE CLASSIC BRILLANTE NATURAL X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007188",
+    "code": "007188",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE CLASSIC BRILLANTE CEDRO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "031117",
+    "code": "031117",
+    "description": "ESMALTE SINTETICO ALBA ALTA TEMPERATURA ALUMINIO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000027",
+    "code": "000027",
+    "description": "BARNIZ PARA MADERA EXTERIOR ALBATROS AL AGUA BRILLANTE INCOLORO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "010640",
+    "code": "010640",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO NARANJA FIAT X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "010607",
+    "code": "010607",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO AMAR.CROMO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "010601",
+    "code": "010601",
+    "description": "ESMALTE SINTETICO COLORIN VITROSPRAY SECADO ULTRARAPIDO BLANCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004561",
+    "code": "004561",
+    "description": "ESMALTE EPOXI AL AGUA SINTEPLAST MONOCOMPONENTE BLANCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004563",
+    "code": "004563",
+    "description": "ESMALTE EPOXI AL AGUA SINTEPLAST MONOCOMPONENTE GRIS X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002998",
+    "code": "002998",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 FORJA GRIS X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003000",
+    "code": "003000",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 FORJA NEGRO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003004",
+    "code": "003004",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 MARTILLADO GRIS PLATA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003006",
+    "code": "003006",
+    "description": "ESMALTE SINTETICO ALBALUX 2EN1 MARTILLADO NEGRO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007081",
+    "code": "007081",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA BRILLANTE CAOBA X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007083",
+    "code": "007083",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA BRILLANTE CRISTAL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007087",
+    "code": "007087",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA BRILLANTE ROBLE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007131",
+    "code": "007131",
+    "description": "IMPREGNANTE PARA MADERA CETOL BALANCE DURACION EXTREMA BRILLANTE CEDRO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004315",
+    "code": "004315",
+    "description": "ESMALTE POLIURETANO TERSUAVE INDULAC BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001889",
+    "code": "001889",
+    "description": "IMPRIMACION EPOXI TERSUAVE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002335",
+    "code": "002335",
+    "description": "FONDO EPOXI TERSUAVE INDULAC ANTICORROSIVO AMARILLO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "002348",
+    "code": "002348",
+    "description": "ESMALTE EPOXI TERSUAVE INDULAC BLANCO X  4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "007161",
+    "code": "007161",
+    "description": "IMPREGNANTE PARA PARQUET CETOL VITRO BRILLANTE NATURAL X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000795",
+    "code": "000795",
+    "description": "LACA MELACRILICA PETRILAC BRILLANTE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "000106",
+    "code": "000106",
+    "description": "ESMALTE PARA AZULEJOS ALBA AL AGUA BRILLANTE X 3,600",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "040001",
+    "code": "040001",
+    "description": "ESMALTE EPOXI ALBA BCO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004028",
+    "code": "004028",
+    "description": "ESMALTE POLIURETANO PARA PISO VARATHANE ACEITE INTERIOR BRILLANTE X 3,785(281857)",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004029",
+    "code": "004029",
+    "description": "ESMALTE POLIURETANO PARA PISO VARATHANE ACEITE INTERIOR SATINADO X 3,785(281859)",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001405",
+    "code": "001405",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR EBANO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001408",
+    "code": "001408",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR CEREZO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001414",
+    "code": "001414",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR ROBLE X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "001417",
+    "code": "001417",
+    "description": "LACA PARA MADERA 7 VIDAS EXTERIOR OLIVO X 4",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004084",
+    "code": "004084",
+    "description": "ESMALTE POLIURETANO VARATHANE AL AGUA EXTERIOR SATINADO X 3,785 (281938)",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "004030",
+    "code": "004030",
+    "description": "ESMALTE POLIURETANO PARA PISO VARATHANE AL AGUA INTERIOR BRILLANTE X 3,785(281853)",
+    "stock": 5,
+    "price": 25000
+  },
+  {
+    "id": "003698",
+    "code": "003698",
+    "description": "LATEX INTERIOR COLORIN TITANIO PRO BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "003260",
+    "code": "003260",
+    "description": "DILUYENTE AGUARRAS MINERAL X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "003306",
+    "code": "003306",
+    "description": "LATEX INTERIOR/EXTERIOR WEBERPINT MATE  BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "001626",
+    "code": "001626",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA HOGAR BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "001807",
+    "code": "001807",
+    "description": "LATEX INTERIOR/EXTERIOR TERSINOL BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "001871",
+    "code": "001871",
+    "description": "LATEX INTERIOR ALBA CONSTRUCTOR MATE BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "004738",
+    "code": "004738",
+    "description": "LATEX INTERIOR PLAVICON MATE BASE MEDIANO X  9",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "002859",
+    "code": "002859",
+    "description": "IMPERMEABILIZANTE PARA TECHOS TERSINOL BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "000104",
+    "code": "000104",
+    "description": "LATEX INTERIOR COLORIN ACRYLATEX MATE BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "001268",
+    "code": "001268",
+    "description": "LATEX INTERIOR ALBACRYL MATE BASE P X  8,700",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "002164",
+    "code": "002164",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA CONSTRUCTOR MATE BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "000078",
+    "code": "000078",
+    "description": "LATEX PARA CIELORRASOS COLORIN MATE BLANCO X 10",
+    "stock": 5,
+    "price": 30000
+  },
+  {
+    "id": "000335",
+    "code": "000335",
+    "description": "LATEX INTERIOR ALBACRYL MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "000966",
+    "code": "000966",
+    "description": "LATEX INTERIOR/EXTERIOR COLORIN ACRYLATEX MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "000132",
+    "code": "000132",
+    "description": "LATEX PARA CIELORRASOS ALBA MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001924",
+    "code": "001924",
+    "description": "IMPERMEABILIZANTE PARA FRENTES PLAVICON MATE BLANCO X 12",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001340",
+    "code": "001340",
+    "description": "LATEX INTERIOR TERSUAVE LAVABLE MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "000100",
+    "code": "000100",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS ALBAFRENT MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001948",
+    "code": "001948",
+    "description": "IMPERMEABILIZANTE PARA MUROS PLAVICON MATE BLANCO X 12",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001238",
+    "code": "001238",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE F X  8,700",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001214",
+    "code": "001214",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE F X  8,700",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001725",
+    "code": "001725",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE F X  8,700",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001246",
+    "code": "001246",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE P X  8,700",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001724",
+    "code": "001724",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE P X  8,700",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "000392",
+    "code": "000392",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "000165",
+    "code": "000165",
+    "description": "LATEX INTERIOR ALBALATEX MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "003056",
+    "code": "003056",
+    "description": "PINTURA PARA PILETA TERSUAVE AL AGUA BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "005573",
+    "code": "005573",
+    "description": "IMPERMEABILIZANTE PARA TECHOS DURALBA MULTISUPERFICIE BLANCO X 12",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "000972",
+    "code": "000972",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS THERMOCONTROL FLEX BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "001836",
+    "code": "001836",
+    "description": "LATEX INTERIOR TERSUAVE LAVABLE SATINADO BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "005494",
+    "code": "005494",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN TOQUE DE LUZ MATE BASE P X  8,700",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "003102",
+    "code": "003102",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "003170",
+    "code": "003170",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE P X  8,700",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "003166",
+    "code": "003166",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BLANCO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "007281",
+    "code": "007281",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL INCOLORO X 10",
+    "stock": 5,
+    "price": 45000
+  },
+  {
+    "id": "002158",
+    "code": "002158",
+    "description": "NATURAL STONE CLEAR X 30",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002161",
+    "code": "002161",
+    "description": "NATURAL STONE SILICA X 30",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "003160",
+    "code": "003160",
+    "description": "BASE NIVELADORA REVEAR X 30",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002099",
+    "code": "002099",
+    "description": "REVEX FINO BASE RV X 25",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002140",
+    "code": "002140",
+    "description": "REVEX FINO BASE TA X 25",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002520",
+    "code": "002520",
+    "description": "REVEX MEDIO BASE RV X 25",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "003533",
+    "code": "003533",
+    "description": "BASE PP P/TEXTURADOS REVEAR X 25",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002432",
+    "code": "002432",
+    "description": "MARBLE FINO BASE RV X 30",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002314",
+    "code": "002314",
+    "description": "MARBLE FINO BASE TA X 30",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002144",
+    "code": "002144",
+    "description": "MARBLE MEDIO BASE TA X 30",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "003279",
+    "code": "003279",
+    "description": "REVIVIDOR REVEAR P/TEXT X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002788",
+    "code": "002788",
+    "description": "REVEMOR REV.ACR BASE RV X 30",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "003299",
+    "code": "003299",
+    "description": "REVEPRIM IMPRIMACIÏ¿½N X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "005414",
+    "code": "005414",
+    "description": "ENDUIDO+MASILLA PARA YESO ALBA X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001754",
+    "code": "001754",
+    "description": "FIJADOR PARA PARED TERSUAVE AL AGUA X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "000617",
+    "code": "000617",
+    "description": "ENDUIDO INTERIOR ALBAPLAST X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "000082",
+    "code": "000082",
+    "description": "ENDUIDO INTERIOR COLORIN SUPER LIVIANO X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001344",
+    "code": "001344",
+    "description": "LATEX INTERIOR TERSINOL BLANCO X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "000109",
+    "code": "000109",
+    "description": "FIJADOR PARA PARED COLORIN AL AGUA X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "004333",
+    "code": "004333",
+    "description": "REVESTIMIENTO TEXTURADO TERPLAST ROMANO FINO BLANCO X 25",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "004334",
+    "code": "004334",
+    "description": "REVESTIMIENTO TEXTURADO TERPLAST ROMANO FINO CLEAR X 25",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "004330",
+    "code": "004330",
+    "description": "REVESTIMIENTO TEXTURADO TERPLAST ROMANO GRUESO BLANCO X 25",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "000906",
+    "code": "000906",
+    "description": "ENDUIDO EXTERIOR ALBA X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001100",
+    "code": "001100",
+    "description": "MEMBRANA ASFALTICA MEGAFLEX NO CRACK PLUS ALUMINIO 40KG X 10MTS",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "000713",
+    "code": "000713",
+    "description": "THINNER SELLO DE ORO X 18",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001872",
+    "code": "001872",
+    "description": "LATEX INTERIOR ALBA CONSTRUCTOR MATE BLANCO X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001808",
+    "code": "001808",
+    "description": "LATEX INTERIOR/EXTERIOR TERSINOL BLANCO X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "004042",
+    "code": "004042",
+    "description": "LATEX INTERIOR/EXTERIOR TERSUAVE MATE BASE D X 18",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001348",
+    "code": "001348",
+    "description": "LATEX PARA CIELORRASOS TERSEN MATE BLANCO X 20",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001263",
+    "code": "001263",
+    "description": "LATEX INTERIOR ALBACRYL MATE BASE F X 17,400",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "001269",
+    "code": "001269",
+    "description": "LATEX INTERIOR ALBACRYL MATE BASE P X 17,400",
+    "stock": 5,
+    "price": 50000
+  },
+  {
+    "id": "002165",
+    "code": "002165",
+    "description": "LATEX INTERIOR/EXTERIOR ALBA CONSTRUCTOR MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000034",
+    "code": "000034",
+    "description": "LATEX PARA CIELORRASOS COLORIN MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003591",
+    "code": "003591",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO FINO BLANCO X 30",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003608",
+    "code": "003608",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO MEDIO BLANCO X 30",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000338",
+    "code": "000338",
+    "description": "LATEX INTERIOR ALBACRYL MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003589",
+    "code": "003589",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO FINO BASE INTENSO X 30",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003606",
+    "code": "003606",
+    "description": "REVESTIMIENTO TEXTURADO ALBA TRAVERTINO MEDIO BASE INTENSO X 30",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "004735",
+    "code": "004735",
+    "description": "LATEX INTERIOR PLAVICON MATE BASE PASTEL X 18",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001317",
+    "code": "001317",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE T X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001984",
+    "code": "001984",
+    "description": "PROTECTOR PARA LADRILLO PLAVIPINT SEMIMATE CON PELICULA INCOLORO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001318",
+    "code": "001318",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE T X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001737",
+    "code": "001737",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE T X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000396",
+    "code": "000396",
+    "description": "LATEX INTERIOR ALBACRYL RINDE MAS MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001239",
+    "code": "001239",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE F X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001215",
+    "code": "001215",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE F X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "002842",
+    "code": "002842",
+    "description": "HOGAR BARNIZ SINT.BRILLANTE X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001782",
+    "code": "001782",
+    "description": "LATEX INTERIOR RECUPLAST MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001735",
+    "code": "001735",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE F X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001223",
+    "code": "001223",
+    "description": "LATEX EXTERIOR DURALBA MATE BASE P X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001247",
+    "code": "001247",
+    "description": "LATEX INTERIOR ALBALATEX MATE BASE P X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003680",
+    "code": "003680",
+    "description": "IMPERMEABILIZANTE PARA TECHOS THERMOCONTROL FIBRADO TEJA X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001731",
+    "code": "001731",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE BASE P X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000408",
+    "code": "000408",
+    "description": "LATEX EXTERIOR DURALBA MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001904",
+    "code": "001904",
+    "description": "IMPERMEABILIZANTE PARA TECHOS PLAVICON FIBRADO ROJO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "041001",
+    "code": "041001",
+    "description": "LATEX EXTERIOR DURALBA MATE GRIS CEMENTO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "041008",
+    "code": "041008",
+    "description": "LATEX EXTERIOR DURALBA MATE ROJO TANINO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "041007",
+    "code": "041007",
+    "description": "LATEX EXTERIOR DURALBA MATE TEJA X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "041041",
+    "code": "041041",
+    "description": "LATEX EXTERIOR DURALBA MATE VERDE TENIS X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "002640",
+    "code": "002640",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL SILICONA PROFESIONAL INCOLORO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000113",
+    "code": "000113",
+    "description": "LATEX INTERIOR ALBALATEX MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "039407",
+    "code": "039407",
+    "description": "IMPERMEABILIZANTE PARA FRENTES Y MUROS DURALBA MATE TEJA X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "027807",
+    "code": "027807",
+    "description": "IMPERMEABILIZANTE PARA TECHOS DURALBA SATINADO TEJA X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003348",
+    "code": "003348",
+    "description": "IMPERMEABILIZANTE PARA TECHOS Y MUROS RECUPLAST TRADICIONAL TEJA X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "004904",
+    "code": "004904",
+    "description": "IMPREGNANTE PENTA STAIN + INSECTICIDA SATINADO NATURAL X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003496",
+    "code": "003496",
+    "description": "DEMARCACION VIAL TERSUAVE ALQUIDICA BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003103",
+    "code": "003103",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003171",
+    "code": "003171",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BASE P X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003494",
+    "code": "003494",
+    "description": "DEMARCACION VIAL TERSUAVE ALQUIDICA AMARILLO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000837",
+    "code": "000837",
+    "description": "PROTECTOR PARA LADRILLO DURALBA NATURAL SIN PELICULA X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000686",
+    "code": "000686",
+    "description": "PROTECTOR PARA LADRILLO DURALBA SATINADO CON PELICULA CERAMICO  X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003167",
+    "code": "003167",
+    "description": "LATEX INTERIOR ALBALATEX ULTRALAVABLE MATE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000525",
+    "code": "000525",
+    "description": "PROTECTOR PARA LADRILLO COLORIN NATURAL X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000383",
+    "code": "000383",
+    "description": "PROTECTOR PARA LADRILLO COLORIN CERAMICO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "002412",
+    "code": "002412",
+    "description": "DEMARCACION VIAL TERSUAVE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001259",
+    "code": "001259",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BASE F X 17,400",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "009802",
+    "code": "009802",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE NEGRO X20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "003061",
+    "code": "003061",
+    "description": "PINTURA PARA PILETA TERSUAVE AL SOLVENTE CELESTE X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "041022",
+    "code": "041022",
+    "description": "LATEX EXTERIOR DURALBA MATE BERMELLON X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "002446",
+    "code": "002446",
+    "description": "DEMARCACION VIAL TERSUAVE AMARILLO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000061",
+    "code": "000061",
+    "description": "PINTURA PARA PILETA COLORIN AL AGUA NATACION BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "009819",
+    "code": "009819",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE VERDE INGLES X20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "004830",
+    "code": "004830",
+    "description": "PINTURA PARA PILETA RESOL CRISTAFLEX BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000117",
+    "code": "000117",
+    "description": "LATEX INTERIOR ALBALATEX DESIGN SATINADO BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "007214",
+    "code": "007214",
+    "description": "PROTECTOR PARA LADRILLO BRIKOL CERAMICO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "009808",
+    "code": "009808",
+    "description": "ESMALTE SINTETICO MAGIC 3EN1 BRILLANTE BERMELLON X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000173",
+    "code": "000173",
+    "description": "ESMALTE SINTETICO ALBALUX BRILLANTE BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "012122",
+    "code": "012122",
+    "description": "DEMARCACION VIAL RESOL AMARILLO VIAL X 18",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "012121",
+    "code": "012121",
+    "description": "DEMARCACION VIAL RESOL BLANCO X 18",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001584",
+    "code": "001584",
+    "description": "ANTICORROS.RESOL ALUMINIO X 18",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "001890",
+    "code": "001890",
+    "description": "IMPRIMACION EPOXI TERSUAVE X20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "004316",
+    "code": "004316",
+    "description": "ESMALTE POLIURETANO TERSUAVE INDULAC BLANCO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "002435",
+    "code": "002435",
+    "description": "FONDO EPOXI TERSUAVE INDULAC ANTICORROSIVO AMARILLO X 20",
+    "stock": 5,
+    "price": 60000
+  },
+  {
+    "id": "000090",
+    "code": "000090",
+    "description": "TEXTURANTE MARTILLADO X 0,002",
+    "stock": 5,
+    "price": 500
+  }
+]
