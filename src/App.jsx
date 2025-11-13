@@ -1,7 +1,66 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-// --- Iconos ---
+// (NUEVO) Importaciones de Firebase (MODIFICADO)
+import { initializeApp } from 'firebase/app';
+import { 
+  getAuth, 
+  onAuthStateChanged, 
+  signOut,
+  GoogleAuthProvider, // (NUEVO) Proveedor de Google
+  signInWithPopup     // (NUEVO) Para la ventana de login
+} from 'firebase/auth';
+import {
+  getFirestore,      // (NUEVO) Importar Firestore
+  doc,               // (NUEVO) Para referenciar un documento
+  getDoc,            // (NUEVO) Para leer un documento
+  setLogLevel        // (NUEVO) Para ver logs
+} from 'firebase/firestore'; // (NUEVO)
+
+// --- (NUEVO) Configuración de Firebase ---
+
+// 1. Intenta cargar desde variables de entorno (Vite / Vercel)
+// Estas variables se leen de tu archivo .env.local (local) o de Vercel (producción)
+const env = import.meta.env;
+const configFromEnv = {
+  apiKey: env.VITE_FIREBASE_API_KEY,
+  authDomain: env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: env.VITE_FIREBASE_APP_ID
+};
+
+// 2. Carga desde variables del entorno Canvas (si existen)
+const configFromCanvas = typeof __firebase_config !== 'undefined' 
+  ? JSON.parse(__firebase_config) 
+  : null;
+
+// 3. Fallback a mock (para evitar que 'initializeApp' falle si no hay nada)
+const mockConfig = { 
+  apiKey: "mock-key", 
+  authDomain: "mock.firebaseapp.com", 
+  projectId: "mock-project-id" // projectId no puede ser "mock-project"
+};
+
+// Prioriza: 1. Canvas, 2. Variables de Entorno (Vite/Vercel), 3. Mock
+const firebaseConfig = configFromCanvas || 
+                       (configFromEnv.apiKey ? configFromEnv : mockConfig);
+  
+// Esta nueva lógica busca 3 niveles para el AppId DE LA APP (para la ruta de Firestore)
+// 1. Variable de Vercel/Vite (para producción)
+// 2. Variable de Canvas (para este entorno)
+// 3. 'default-app-id' (para desarrollo local 'npm run dev')
+const appId = env.VITE_APP_ID || (typeof __app_id !== 'undefined' ? __app_id : 'default-app-id');
+
+// Inicializar Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app); // (NUEVO) Inicializa Firestore
+setLogLevel('Debug'); // (NUEVO) Habilita logs detallados de Firestore
+
+
+// --- Iconos (Sin cambios) ---
 const SearchIcon = ({ size = 20, className = "" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +78,6 @@ const SearchIcon = ({ size = 20, className = "" }) => (
     <line x1="21" y1="21" x2="16.65" y2="16.65" />
   </svg>
 );
-
 const LoaderIcon = ({ size = 20, className = "" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +94,6 @@ const LoaderIcon = ({ size = 20, className = "" }) => (
     <path d="M21 12a9 9 0 1 1-6.219-8.56" />
   </svg>
 );
-
 const PlusCircleIcon = ({ size = 18, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <circle cx="12" cy="12" r="10" />
@@ -44,13 +101,11 @@ const PlusCircleIcon = ({ size = 18, className = "" }) => (
     <line x1="8" y1="12" x2="16" y2="12" />
   </svg>
 );
-
 const CheckIcon = ({ size = 18, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <polyline points="20 6 9 17 4 12" />
   </svg>
 );
-
 const ShoppingCartIcon = ({ size = 24, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <circle cx="9" cy="21" r="1" />
@@ -58,7 +113,6 @@ const ShoppingCartIcon = ({ size = 24, className = "" }) => (
     <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
   </svg>
 );
-
 const Trash2Icon = ({ size = 18, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <polyline points="3 6 5 6 21 6" />
@@ -67,33 +121,60 @@ const Trash2Icon = ({ size = 18, className = "" }) => (
     <line x1="14" y1="11" x2="14" y2="17" />
   </svg>
 );
-
 const XIcon = ({ size = 16, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <line x1="18" y1="6" x2="6" y2="18" />
     <line x1="6" y1="6" x2="18" y2="18" />
   </svg>
 );
-
 const PlusIcon = ({ size = 16, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <line x1="12" y1="5" x2="12" y2="19" />
     <line x1="5" y1="12" x2="19" y2="12" />
   </svg>
 );
-
 const MinusIcon = ({ size = 16, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <line x1="5" y1="12" x2="19" y2="12" />
   </svg>
 );
-
 const MicIcon = ({ size = 20, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
     <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
     <line x1="12" y1="19" x2="12" y2="23" />
     <line x1="8" y1="23" x2="16" y2="23" />
+  </svg>
+);
+const LogOutIcon = ({ size = 20, className = "" }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+    <polyline points="16 17 21 12 16 7" />
+    <line x1="21" y1="12" x2="9" y2="12" />
+  </svg>
+);
+const UserIcon = ({ size = 20, className = "" }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+    <circle cx="12" cy="7" r="4" />
+  </svg>
+);
+// --- (NUEVO) Icono de Google ---
+const GoogleIcon = ({ size = 20, className = "" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+    <path d="M22.56 12.25C22.56 11.47 22.49 10.72 22.36 10H12.27V14.18H18.05C17.82 15.62 17.06 16.82 15.93 17.56V20.18H19.25C21.32 18.39 22.56 15.56 22.56 12.25Z" fill="#4285F4"/>
+    <path d="M12.27 23C15.02 23 17.34 22.02 19.25 20.18L15.93 17.56C15.03 18.15 13.78 18.5 12.27 18.5C9.87 18.5 7.8 16.89 7 14.56H3.59V17.25C5.4 20.73 8.58 23 12.27 23Z" fill="#34A853"/>
+    <path d="M7 14.56C6.79 13.96 6.67 13.31 6.67 12.62C6.67 11.93 6.79 11.28 7 10.69V7.99999H3.59C2.7 9.69999 2.22 11.1 2.22 12.62C2.22 14.14 2.7 15.54 3.59 17.25L7 14.56Z" fill="#FBBC05"/>
+    <path d="M12.27 6.49999C13.84 6.49999 15.11 7.02999 15.6 7.47999L19.33 3.82999C17.34 1.97999 15.02 1 12.27 1C8.58 1 5.4 3.26999 3.59 6.74999L7 9.43999C7.8 7.09999 9.87 6.49999 12.27 6.49999Z" fill="#EA4335"/>
+  </svg>
+);
+// --- (NUEVO) Icono de Acceso Denegado ---
+const UserXIcon = ({ size = 20, className = "" }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <line x1="17" y1="8" x2="22" y2="13"/>
+    <line x1="22" y1="8" x2="17" y2="13"/>
   </svg>
 );
 // --- Fin Iconos ---
@@ -132,8 +213,6 @@ const normalizeText = (text) => {
 
 // --- Constantes ---
 const ITEMS_PER_PAGE = 50;
-
-// --- (ELIMINADO) Componente Resizer ---
 
 // --- Componente de Carrito ---
 // (MODIFICADO) Ahora recibe usdRateBillete y usdRateDivisas
@@ -438,7 +517,7 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
 
 // --- Componente de Página (Refactorizado) ---
 
-function PriceListPage() {
+function PriceListPage({ user, onSignOut }) { // (MODIFICADO) Recibe user y onSignOut
   // --- Estados ---
   const [searchTerm, setSearchTerm] = useState('');
   const [allProducts, setAllProducts] = useState([]);
@@ -450,10 +529,6 @@ function PriceListPage() {
   // (MODIFICADO) Estados separados para las cotizaciones
   const [usdRateBillete, setUsdRateBillete] = useState(''); // Para Moneda 2
   const [usdRateDivisas, setUsdRateDivisas] = useState(''); // Para Moneda 3
-
-  // --- (ELIMINADO) Estado para el ancho de las columnas ---
-  
-  // --- (ELIMINADO) Estado para el resizing ---
 
   const [cart, setCart] = useState(() => {
     try {
@@ -733,16 +808,32 @@ function PriceListPage() {
     // (MODIFICADO) Padding responsivo
     <div className="container mx-auto p-3 sm:p-4 md:p-6 max-w-7xl">
       <header className="mb-6">
-        {/* (MODIFICADO) Título responsivo */}
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Lista de Precios</h1>
-        <p className="text-gray-600 mt-1">
-          Explora nuestro catálogo completo de productos.
-          {!isLoading && !error && (
-            <span className="ml-2 font-medium text-blue-600">
-              ({totalProductsFound} {totalProductsFound === 1 ? 'producto' : 'productos'} encontrados)
+        {/* (NUEVO) Header con botón de Salir */}
+        <div className="flex flex-col sm:flex-row justify-between sm:items-center">
+          <div>
+            <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">Lista de Precios</h1>
+            <p className="text-gray-600 mt-1">
+              Explora nuestro catálogo completo de productos.
+              {!isLoading && !error && (
+                <span className="ml-2 font-medium text-blue-600">
+                  ({totalProductsFound} {totalProductsFound === 1 ? 'producto' : 'productos'} encontrados)
+                </span>
+              )}
+            </p>
+          </div>
+          <div className="mt-3 sm:mt-0 flex items-center gap-4">
+            <span className="text-sm text-gray-500 hidden sm:block">
+              Usuario: <span className="font-medium text-gray-700">{user.email}</span>
             </span>
-          )}
-        </p>
+            <button
+              onClick={onSignOut}
+              className="flex items-center gap-2 py-2 px-4 rounded-md text-sm font-medium text-red-600 bg-red-100 hover:bg-red-200 transition-colors"
+            >
+              <LogOutIcon size={18} />
+              Cerrar Sesión
+            </button>
+          </div>
+        </div>
       </header>
 
       {/* --- Barra de Filtros (CORREGIDA) --- */}
@@ -1045,11 +1136,218 @@ function PriceListPage() {
 }
 
 
-// --- Componente Raíz (App) (Sin cambios) ---
+// --- (NUEVO) Componente de Login (MODIFICADO para Google) ---
+function LoginScreen() {
+  const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleGoogleSignIn = async () => {
+    setIsLoading(true);
+    setError(null);
+    const provider = new GoogleAuthProvider();
+
+    try {
+      await signInWithPopup(auth, provider);
+      // El 'onAuthStateChanged' en App se encargará de mostrar la app
+      // o la pantalla de "No autorizado"
+    } catch (err) {
+      console.error("Error de inicio de sesión con Google:", err.code);
+      if (err.code !== 'auth/popup-closed-by-user') {
+        if (err.code === 'auth/api-key-not-valid') {
+            setError('Error: API Key de Firebase no válida. Revisa tu configuración.');
+        } else {
+            setError('Ocurrió un error. Inténtelo de nuevo.');
+        }
+      }
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center p-4">
+      <div className="max-w-md w-full bg-white rounded-lg shadow-md p-8">
+        <div className="flex flex-col items-center mb-6">
+          <UserIcon size={40} className="text-blue-600 mb-3" />
+          <h1 className="text-2xl font-bold text-gray-800">Acceso Restringido</h1>
+          <p className="text-gray-600 mt-1">Inicie sesión para ver la lista de precios.</p>
+        </div>
+
+        {error && (
+          <div className="my-4 text-center text-sm text-red-600 bg-red-100 p-3 rounded-md">
+            {error}
+          </div>
+        )}
+
+        <button
+          type="button"
+          disabled={isLoading}
+          onClick={handleGoogleSignIn}
+          className="w-full py-3 px-4 bg-white text-gray-700 font-medium rounded-md shadow-sm border border-gray-300 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors disabled:opacity-50 flex items-center justify-center gap-3"
+        >
+          {isLoading ? (
+            <LoaderIcon size={20} className="mx-auto" />
+          ) : (
+            <>
+              <GoogleIcon size={20} />
+              Iniciar Sesión con Google
+            </>
+          )}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// --- (NUEVO) Componente de Acceso Denegado ---
+function AuthorizationFailedScreen({ onSignOut }) {
+  return (
+    <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center p-4">
+      <div className="max-w-md w-full bg-white rounded-lg shadow-md p-8 text-center">
+        <div className="flex flex-col items-center mb-6">
+          <UserXIcon size={40} className="text-red-600 mb-3" />
+          <h1 className="text-2xl font-bold text-gray-800">Acceso Denegado</h1>
+          <p className="text-gray-600 mt-2">
+            Tu cuenta no se encuentra en la lista de usuarios autorizados.
+          </p>
+          <p className="text-gray-600 mt-1">
+            Por favor, contacta al administrador para solicitar acceso.
+          </p>
+        </div>
+
+        <button
+          onClick={onSignOut}
+          className="w-full py-2 px-4 bg-blue-600 text-white font-bold rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+        >
+          Cerrar Sesión
+        </button>
+      </div>
+    </div>
+  );
+}
+
+
+// --- Componente Raíz (App) (MODIFICADO) ---
 export default function App() {
+  const [user, setUser] = useState(null);
+  const [authReady, setAuthReady] = useState(false);
+  const [isAuthorized, setIsAuthorized] = useState(false); // (NUEVO) Estado de autorización
+  const [authLoading, setAuthLoading] = useState(true); // (NUEVO) Estado de carga de Whitelist
+
+  // (NUEVO) Función para verificar la Whitelist en Firestore
+  const checkUserAuthorization = async (user) => {
+    if (!user) {
+      setIsAuthorized(false);
+      setAuthLoading(false);
+      return;
+    }
+
+    // Si la config de firebase no es válida, no intentes conectar a firestore.
+    if (!firebaseConfig.apiKey || firebaseConfig.apiKey === "mock-key") {
+      console.error("Configuración de Firebase no válida. Imposible verificar autorización.");
+      setIsAuthorized(false); // No autorizado si no hay config
+      setAuthLoading(false);
+      return;
+    }
+
+    setAuthLoading(true);
+    try {
+      // (IMPORTANTE) La Whitelist es una colección en /artifacts/{appId}/public/data/whitelist
+      // Cada documento en esa colección debe tener como ID el email del usuario autorizado.
+      console.log(`Verificando autorización para ${user.email} en ruta: artifacts/${appId}/public/data/whitelist/${user.email}`);
+      const whitelistRef = doc(db, 'artifacts', appId, 'public', 'data', 'whitelist', user.email);
+      const docSnap = await getDoc(whitelistRef);
+
+      if (docSnap.exists()) {
+        console.log("Acceso autorizado para:", user.email);
+        setIsAuthorized(true);
+      } else {
+        console.warn("Acceso denegado: email no está en la whitelist:", user.email);
+        setIsAuthorized(false);
+        // Opcional: Desloguear automáticamente si falla la autorización
+        // await signOut(auth); 
+      }
+    } catch (error) {
+      console.error("Error al verificar la whitelist:", error);
+      setIsAuthorized(false);
+    } finally {
+      setAuthLoading(false);
+    }
+  };
+
+  // Maneja el estado de autenticación
+  useEffect(() => {
+    // Si la config no es válida, no intentes registrar el listener
+    if (!firebaseConfig.apiKey || firebaseConfig.apiKey === "mock-key") {
+      console.warn("Configuración de Firebase no detectada. Mostrando login.");
+      setAuthReady(true); // Marca como listo para mostrar el login
+      setAuthLoading(false);
+      setUser(null);
+      return;
+    }
+
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setUser(user);
+      setAuthReady(true);
+      // (NUEVO) Verifica la autorización cada vez que cambia el usuario (login/logout)
+      checkUserAuthorization(user);
+    });
+    return () => unsubscribe();
+  }, []); // Se ejecuta solo una vez al montar
+
+  const handleSignOut = async () => {
+    try {
+      await signOut(auth);
+      // Al desloguearse, onAuthStateChanged se disparará,
+      // 'user' será null y 'isAuthorized' se pondrá en false.
+    } catch (error) {
+      console.error("Error al cerrar sesión:", error);
+    }
+  };
+
+  // Renderizado principal de la App
+  
+  // 1. Muestra un loader mientras Firebase verifica el estado inicial
+  if (!authReady) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+        <LoaderIcon size={40} className="text-blue-600" />
+      </div>
+    );
+  }
+
+  // 2. Si hay un usuario, verifica si está autorizado
+  if (user) {
+    // 2a. Muestra loader mientras se verifica la whitelist
+    if (authLoading) {
+      return (
+        <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+          <LoaderIcon size={40} className="text-blue-600" />
+          <span className="ml-4 text-gray-600">Verificando autorización...</span>
+        </div>
+      );
+    }
+
+    // 2b. Si está autorizado, muestra la app
+    if (isAuthorized) {
+      return (
+        <main className="bg-gray-50 min-h-screen font-sans">
+          <PriceListPage user={user} onSignOut={handleSignOut} />
+        </main>
+      );
+    }
+    
+    // 2c. Si NO está autorizado, muestra la pantalla de Acceso Denegado
+    return (
+      <main className="bg-gray-50 min-h-screen font-sans">
+        <AuthorizationFailedScreen onSignOut={handleSignOut} />
+      </main>
+    );
+  }
+
+  // 3. Si no hay usuario, muestra la pantalla de Login
   return (
     <main className="bg-gray-50 min-h-screen font-sans">
-      <PriceListPage />
+      <LoginScreen />
     </main>
   );
 }
