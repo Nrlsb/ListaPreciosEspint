@@ -138,10 +138,35 @@ async function convertExcelToJson() {
         ['price', 'price_usd', 'rate'].forEach(key => {
           let value = newRow[key] || 0;
           if (typeof value === 'string') {
+            // Maneja formatos como '$ 1.234,56'
             value = parseFloat(value.replace(/\$/g, '').replace(/\./g, '').replace(',', '.').trim());
           }
           newRow[key] = isNaN(value) ? 0 : value;
         });
+        
+        // --- INICIO DE LA MODIFICACIÓN (Lógica de Moneda) ---
+        // Si Moneda es 1 (ARS), el precio USD se setea a 0.
+        // Si Moneda es 2 o 3 (USD), el precio ARS se setea a 0 y el USD toma el valor de Venta.
+        
+        // Convertimos la moneda a string y quitamos espacios por si acaso
+        const currencyValue = newRow.currency ? newRow.currency.toString().trim() : '';
+        
+        if (currencyValue === '1') {
+          // Es Moneda 1 (ARS). El precio ARS (newRow.price) es correcto.
+          // Forzamos el precio USD (newRow.price_usd) a 0.
+          // (Nota: Si el excel ya tenía un valor USD, se sobrescribe a 0)
+          newRow.price_usd = 0; 
+
+        } else if (currencyValue === '2' || currencyValue === '3') {
+          // Es Moneda 2 o 3 (USD).
+          // 1. Asignamos el 'Precio Venta' (ARS) a 'price_usd'.
+          newRow.price_usd = newRow.price; 
+          // 2. Forzamos el precio ARS (newRow.price) a 0.
+          newRow.price = 0; 
+        }
+        // Si la moneda no es 1, 2, o 3, se dejan los valores
+        // tal como vienen del Excel (newRow.price y newRow.price_usd).
+        // --- FIN DE LA MODIFICACIÓN ---
 
         // Asigna un ID
         newRow.id = newRow.id || newRow.code || `idx-${sheetName}-${index + 1}`;

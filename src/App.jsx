@@ -112,6 +112,15 @@ const formatCurrency = (amount) => {
   }).format(amount);
 };
 
+// (NUEVO) Helper: Formateador de Tipo de Moneda
+const formatCurrencyType = (currencyCode) => {
+  const code = currencyCode ? currencyCode.toString().trim() : '';
+  if (code === '1') return 'ARS';
+  if (code === '2') return 'USD Billete';
+  if (code === '3') return 'USD Divisas';
+  return '-'; // Valor por defecto
+};
+
 // --- Helper: Función para normalizar y quitar acentos (NUEVO) ---
 const normalizeText = (text) => {
   if (!text) return '';
@@ -124,14 +133,38 @@ const normalizeText = (text) => {
 // --- Constantes ---
 const ITEMS_PER_PAGE = 50;
 
+// --- (ELIMINADO) Componente Resizer ---
+
 // --- Componente de Carrito ---
-function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIncrement, onDecrement }) {
+// (MODIFICADO) Ahora recibe usdRateBillete y usdRateDivisas
+function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIncrement, onDecrement, usdRateBillete, usdRateDivisas }) {
   const [editingQuantity, setEditingQuantity] = useState({});
+  
+  // (MODIFICADO) Parsea ambas cotizaciones
+  const rateBillete = parseFloat(usdRateBillete) || 0;
+  const rateDivisas = parseFloat(usdRateDivisas) || 0;
 
   // Calcula el total
   const total = useMemo(() => {
-    return cartItems.reduce((acc, item) => acc + (item.price * item.quantity), 0);
-  }, [cartItems]);
+    return cartItems.reduce((acc, item) => {
+      // (MODIFICADO) El precio se calcula dinámicamente con la cotización correcta
+      const currencyValue = item.currency ? item.currency.toString().trim() : '';
+      let itemPrice;
+
+      if (currencyValue === '1') {
+          itemPrice = item.price; // Es ARS, usa el precio base
+      } else if (currencyValue === '2') {
+          itemPrice = item.price_usd * rateBillete; // Es USD Billete
+      } else if (currencyValue === '3') {
+          itemPrice = item.price_usd * rateDivisas; // Es USD Divisas
+      } else {
+          itemPrice = 0; // Default
+      }
+        
+      return acc + (itemPrice * item.quantity);
+    }, 0);
+  // (MODIFICADO) Depende de ambas cotizaciones
+  }, [cartItems, rateBillete, rateDivisas]);
   
   // Función local para manejar el cambio en el input
   const handleQuantityChange = useCallback((code, value) => {
@@ -191,57 +224,75 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
 
       {/* (NUEVO) Vista de Tarjetas para Móvil */}
       <div className="sm:hidden divide-y divide-blue-300">
-        {cartItems.map(item => (
-          <div key={item.code} className="p-3">
-            <div className="flex justify-between items-start">
-              {/* Info del Producto */}
-              <div className="flex-1 pr-2">
-                <p className="font-semibold text-gray-800">{item.description}</p>
-                <p className="text-sm text-gray-500">Código: {item.code}</p>
-              </div>
-              {/* Botón de Quitar */}
-              <button
-                onClick={() => onRemoveItem(item.code)}
-                className="text-red-600 hover:text-red-800 p-1"
-                title="Quitar producto"
-              >
-                <Trash2Icon size={16} />
-              </button>
-            </div>
-            <div className="flex justify-between items-center mt-3">
-              {/* Controlador de Cantidad */}
-              <div className="flex items-center">
+        {cartItems.map(item => {
+          // (MODIFICADO) Calcula el subtotal dinámicamente con la cotización correcta
+          const currencyValue = item.currency ? item.currency.toString().trim() : '';
+          let itemPrice;
+          
+          if (currencyValue === '1') {
+              itemPrice = item.price;
+          } else if (currencyValue === '2') {
+              itemPrice = item.price_usd * rateBillete;
+          } else if (currencyValue === '3') {
+              itemPrice = item.price_usd * rateDivisas;
+          } else {
+              itemPrice = 0;
+          }
+          const subtotal = itemPrice * item.quantity;
+
+          return (
+            <div key={item.code} className="p-3">
+              <div className="flex justify-between items-start">
+                {/* Info del Producto */}
+                <div className="flex-1 pr-2">
+                  <p className="font-semibold text-gray-800">{item.description}</p>
+                  <p className="text-sm text-gray-500">Código: {item.code}</p>
+                </div>
+                {/* Botón de Quitar */}
                 <button
-                  onClick={() => onDecrement(item.code)}
-                  className="p-1.5 border border-gray-300 rounded-l-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
-                  title="Restar uno"
+                  onClick={() => onRemoveItem(item.code)}
+                  className="text-red-600 hover:text-red-800 p-1"
+                  title="Quitar producto"
                 >
-                  <MinusIcon size={14} />
-                </button>
-                <input
-                  type="number"
-                  min="0" 
-                  // Usa el valor temporal o el valor real del carrito
-                  value={editingQuantity[item.code] !== undefined ? editingQuantity[item.code] : item.quantity}
-                  onChange={(e) => handleQuantityChange(item.code, e.target.value)}
-                  onBlur={() => handleBlur(item.code, item.quantity)}
-                  className="w-12 text-center border-t border-b border-gray-300 py-1 px-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                />
-                <button
-                  onClick={() => onIncrement(item.code)}
-                  className="p-1.5 border border-gray-300 rounded-r-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
-                  title="Sumar uno"
-                >
-                  <PlusIcon size={14} />
+                  <Trash2Icon size={16} />
                 </button>
               </div>
-              {/* Subtotal */}
-              <p className="font-semibold text-gray-900 text-right">
-                {formatCurrency(item.price * item.quantity)}
-              </p>
+              <div className="flex justify-between items-center mt-3">
+                {/* Controlador de Cantidad */}
+                <div className="flex items-center">
+                  <button
+                    onClick={() => onDecrement(item.code)}
+                    className="p-1.5 border border-gray-300 rounded-l-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
+                    title="Restar uno"
+                  >
+                    <MinusIcon size={14} />
+                  </button>
+                  <input
+                    type="number"
+                    min="0" 
+                    // Usa el valor temporal o el valor real del carrito
+                    value={editingQuantity[item.code] !== undefined ? editingQuantity[item.code] : item.quantity}
+                    onChange={(e) => handleQuantityChange(item.code, e.target.value)}
+                    onBlur={() => handleBlur(item.code, item.quantity)}
+                    className="w-12 text-center border-t border-b border-gray-300 py-1 px-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                  />
+                  <button
+                    onClick={() => onIncrement(item.code)}
+                    className="p-1.5 border border-gray-300 rounded-r-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
+                    title="Sumar uno"
+                  >
+                    <PlusIcon size={14} />
+                  </button>
+                </div>
+                {/* Subtotal */}
+                <p className="font-semibold text-gray-900 text-right">
+                  {/* (MODIFICADO) Usa el subtotal calculado */}
+                  {formatCurrency(subtotal)}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {/* (MODIFICADO) Vista de Tabla para Escritorio (oculta en móvil) */}
@@ -269,55 +320,73 @@ function CartList({ cartItems, onRemoveItem, onUpdateQuantity, onClearCart, onIn
           </thead>
           {/* <!-- MODIFICADO: Se quitó bg-white para que herede el bg-blue-100 y se cambió el borde --> */}
           <tbody className="divide-y divide-blue-200">
-            {cartItems.map(item => (
-              <tr key={item.code}>
-                <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
-                  {item.code}
-                </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
-                  {item.description}
-                </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm">
-                  <div className="flex items-center justify-center">
+            {cartItems.map(item => {
+              // (MODIFICADO) Calcula el subtotal dinámicamente con la cotización correcta
+              const currencyValue = item.currency ? item.currency.toString().trim() : '';
+              let itemPrice;
+              
+              if (currencyValue === '1') {
+                  itemPrice = item.price;
+              } else if (currencyValue === '2') {
+                  itemPrice = item.price_usd * rateBillete;
+              } else if (currencyValue === '3') {
+                  itemPrice = item.price_usd * rateDivisas;
+              } else {
+                  itemPrice = 0;
+              }
+              const subtotal = itemPrice * item.quantity;
+
+              return (
+                <tr key={item.code}>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
+                    {item.code}
+                  </td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
+                    {item.description}
+                  </td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm">
+                    <div className="flex items-center justify-center">
+                      <button
+                        onClick={() => onDecrement(item.code)}
+                        className="p-1.5 border border-gray-300 rounded-l-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
+                        title="Restar uno"
+                      >
+                        <MinusIcon size={14} />
+                      </button>
+                      <input
+                        type="number"
+                        min="0" // Permite cero
+                        // Usa el valor temporal o el valor real del carrito
+                        value={editingQuantity[item.code] !== undefined ? editingQuantity[item.code] : item.quantity}
+                        onChange={(e) => handleQuantityChange(item.code, e.target.value)}
+                        onBlur={() => handleBlur(item.code, item.quantity)}
+                        className="w-14 text-center border-t border-b border-gray-300 py-1 px-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                      />
+                      <button
+                        onClick={() => onIncrement(item.code)}
+                        className="p-1.5 border border-gray-300 rounded-r-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
+                        title="Sumar uno"
+                      >
+                        <PlusIcon size={14} />
+                      </button>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
+                    {/* (MODIFICADO) Usa el subtotal calculado */}
+                    {formatCurrency(subtotal)}
+                  </td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-center">
                     <button
-                      onClick={() => onDecrement(item.code)}
-                      className="p-1.5 border border-gray-300 rounded-l-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
-                      title="Restar uno"
+                      onClick={() => onRemoveItem(item.code)}
+                      className="text-red-600 hover:text-red-800 p-1"
+                      title="Quitar producto"
                     >
-                      <MinusIcon size={14} />
+                      <Trash2Icon />
                     </button>
-                    <input
-                      type="number"
-                      min="0" // Permite cero
-                      // Usa el valor temporal o el valor real del carrito
-                      value={editingQuantity[item.code] !== undefined ? editingQuantity[item.code] : item.quantity}
-                      onChange={(e) => handleQuantityChange(item.code, e.target.value)}
-                      onBlur={() => handleBlur(item.code, item.quantity)}
-                      className="w-14 text-center border-t border-b border-gray-300 py-1 px-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    />
-                    <button
-                      onClick={() => onIncrement(item.code)}
-                      className="p-1.5 border border-gray-300 rounded-r-md bg-gray-50 hover:bg-gray-100 text-gray-700 transition-colors"
-                      title="Sumar uno"
-                    >
-                      <PlusIcon size={14} />
-                    </button>
-                  </div>
-                </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
-                  {formatCurrency(item.price * item.quantity)}
-                </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm text-center">
-                  <button
-                    onClick={() => onRemoveItem(item.code)}
-                    className="text-red-600 hover:text-red-800 p-1"
-                    title="Quitar producto"
-                  >
-                    <Trash2Icon />
-                  </button>
-                </td>
-              </tr>
-            ))}
+                  </td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -342,6 +411,15 @@ function PriceListPage() {
   const [error, setError] = useState(null);
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const [isListening, setIsListening] = useState(false); // NUEVO: Estado para el micrófono
+  
+  // (MODIFICADO) Estados separados para las cotizaciones
+  const [usdRateBillete, setUsdRateBillete] = useState(''); // Para Moneda 2
+  const [usdRateDivisas, setUsdRateDivisas] = useState(''); // Para Moneda 3
+
+  // --- (ELIMINADO) Estado para el ancho de las columnas ---
+  
+  // --- (ELIMINADO) Estado para el resizing ---
+
   const [cart, setCart] = useState(() => {
     try {
       const savedCart = localStorage.getItem('priceListCart');
@@ -353,6 +431,8 @@ function PriceListPage() {
   });
 
   const { ref, inView } = useInView();
+  
+  // --- (ELIMINADO) Lógica de Resize de Columnas ---
   
   // --- Lógica de Reconocimiento de Voz (NUEVO) ---
   const handleVoiceSearch = () => {
@@ -438,15 +518,32 @@ function PriceListPage() {
   const handleAddToCart = (productToAdd) => {
     setCart(prevCart => {
       const existingItem = prevCart.find(item => item.code === productToAdd.code);
+      
+      // (NUEVO) El producto que se agrega (productToAdd) ya tiene el precio ARS
+      // y la cotización calculados por el useMemo.
+      // Sin embargo, para el carrito, solo guardamos el precio base (price o price_usd).
+      // El cálculo final se hace *dentro* del componente CartList.
+      
+      // Creamos una copia "limpia" para el carrito, sin el 'price' y 'rate' calculados
+      // (excepto si es ARS, que 'price' es el base)
+      const cartProduct = {
+        code: productToAdd.code,
+        description: productToAdd.description,
+        currency: productToAdd.currency,
+        // (MODIFICADO) Guarda el precio base ARS (que es el final)
+        price: (productToAdd.currency && productToAdd.currency.toString().trim() === '1') ? productToAdd.price : 0, 
+        price_usd: productToAdd.price_usd, // Precio base USD
+      };
+      
       if (existingItem) {
-        // Si ya existe, incrementamos la cantidad, asegurando que sea al menos 1 si estaba en 0
+        // Si ya existe, incrementamos la cantidad
         return prevCart.map(item =>
-          item.code === productToAdd.code
-            ? { ...item, quantity: Math.max(1, item.quantity + 1) } // Asegura al menos 1
+          item.code === cartProduct.code
+            ? { ...item, quantity: Math.max(1, item.quantity + 1) }
             : item
         );
       } else {
-        return [...prevCart, { ...productToAdd, quantity: 1 }];
+        return [...prevCart, { ...cartProduct, quantity: 1 }];
       }
     });
   };
@@ -505,6 +602,11 @@ function PriceListPage() {
   };
 
   // --- Lógica de Filtros (MODIFICADA para usar normalizeText) ---
+  
+  // (MODIFICADO) Parsea ambas cotizaciones
+  const rateBillete = parseFloat(usdRateBillete) || 0;
+  const rateDivisas = parseFloat(usdRateDivisas) || 0;
+
   const filteredProducts = useMemo(() => {
     let products = allProducts;
     if (searchTerm) {
@@ -524,8 +626,30 @@ function PriceListPage() {
         return searchWords.every(word => productText.includes(word));
       });
     }
-    return products;
-  }, [allProducts, searchTerm]);
+
+    // (MODIFICADO) Mapea los productos para calcular precios dinámicamente
+    return products.map(p => {
+      const currencyValue = p.currency ? p.currency.toString().trim() : '';
+      
+      if (currencyValue === '2') {
+        // Es USD Billete: Calcula el precio ARS y actualiza la cotización
+        const newPriceARS = p.price_usd * rateBillete;
+        return { ...p, price: newPriceARS, rate: rateBillete };
+      }
+
+      if (currencyValue === '3') {
+        // Es USD Divisas: Calcula el precio ARS y actualiza la cotización
+        const newPriceARS = p.price_usd * rateDivisas;
+        return { ...p, price: newPriceARS, rate: rateDivisas };
+      }
+      
+      // Es ARS (o desconocido): Devuelve el producto tal cual
+      // (el script de conversión ya puso rate = 1 y price_usd = 0)
+      return p; 
+    });
+
+  // (MODIFICADO) Depende de allProducts, searchTerm y AMBAS cotizaciones
+  }, [allProducts, searchTerm, rateBillete, rateDivisas]); 
 
   useEffect(() => {
     setVisibleCount(ITEMS_PER_PAGE);
@@ -569,7 +693,8 @@ function PriceListPage() {
       </header>
 
       {/* --- Barra de Filtros (CORREGIDA) --- */}
-      <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mb-6 p-3 sm:p-4 bg-white rounded-lg shadow-sm border border-gray-200">
+      {/* (MODIFICADO) grid-cols-1 md:grid-cols-3 para 3 elementos */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6 p-3 sm:p-4 bg-white rounded-lg shadow-sm border border-gray-200">
         {/* 1. Contenedor del item de la grilla (sin 'relative') */}
         <div>
           <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-1">
@@ -607,6 +732,49 @@ function PriceListPage() {
             </button>
           </div>
         </div>
+
+        {/* (NUEVO) Input para Cotización USD Billete (Moneda 2) */}
+        <div>
+          <label htmlFor="usdRateBillete" className="block text-sm font-medium text-gray-700 mb-1">
+            Cotización USD Billete
+          </label>
+          <div className="relative">
+            <input
+              type="number"
+              id="usdRateBillete"
+              value={usdRateBillete}
+              onChange={(e) => setUsdRateBillete(e.target.value)}
+              placeholder="Ej: 1000.00"
+              className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+            {/* Icono de Dólar */}
+            <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-lg font-bold">
+              $
+            </span>
+          </div>
+        </div>
+        
+        {/* (NUEVO) Input para Cotización USD Divisas (Moneda 3) */}
+        <div>
+          <label htmlFor="usdRateDivisas" className="block text-sm font-medium text-gray-700 mb-1">
+            Cotización USD Divisas
+          </label>
+          <div className="relative">
+            <input
+              type="number"
+              id="usdRateDivisas"
+              value={usdRateDivisas}
+              onChange={(e) => setUsdRateDivisas(e.target.value)}
+              placeholder="Ej: 1050.00"
+              className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+            {/* Icono de Dólar */}
+            <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-lg font-bold">
+              $
+            </span>
+          </div>
+        </div>
+
       </div>
       {/* --- Fin Barra de Filtros (CORREGIDA) --- */}
 
@@ -619,6 +787,9 @@ function PriceListPage() {
         onClearCart={handleClearCart}
         onIncrement={handleIncrementQuantity}
         onDecrement={handleDecrementQuantity}
+        // (MODIFICADO) Pasa ambas cotizaciones al carrito
+        usdRateBillete={usdRateBillete}
+        usdRateDivisas={usdRateDivisas}
       />
       
       {/* --- Título de la tabla de productos (MODIFICADO) --- */}
@@ -658,18 +829,22 @@ function PriceListPage() {
                     <p className="text-sm text-gray-500">Código: {product.code}</p>
                     {/* NUEVOS CAMPOS MÓVIL */}
                     <p className="text-sm text-gray-500">Marca: {product.brand || 'N/A'}</p>
+                    {/* (NUEVO) Mostrar tipo de moneda */}
+                    <p className="text-sm text-gray-500">Moneda: {formatCurrencyType(product.currency)}</p>
                   </div>
                   {/* NUEVA SECCIÓN DE PRECIOS */}
                   <div className="flex justify-between items-center mb-3">
                     <div>
                       <p className="text-xs text-gray-500">Precio USD</p>
                       <p className="text-lg font-bold text-gray-700">
-                        {product.price_usd ? formatCurrency(product.price_usd) : '-'}
+                        {/* (MODIFICADO) Muestra price_usd (base) o '-' */}
+                        {product.price_usd > 0 ? formatCurrency(product.price_usd) : '-'}
                       </p>
                     </div>
                     <div className="text-right">
                       <p className="text-xs text-gray-500">Precio Final ARS</p>
                       <p className="text-xl font-bold text-gray-900">
+                        {/* (MODIFICADO) Muestra el precio (calculado o base) */}
                         {formatCurrency(product.price)}
                       </p>
                     </div>
@@ -697,10 +872,12 @@ function PriceListPage() {
 
           {/* (MODIFICADO) Vista de Tabla para Escritorio (oculta en móvil) */}
           <div className="overflow-x-auto bg-white rounded-lg shadow border border-gray-200 hidden sm:block">
+            {/* (MODIFICADO) Se quita 'table-fixed' para que los anchos sean automáticos */}
             <table className="min-w-full divide-y divide-gray-200">
               {/* CABECERA DE TABLA MODIFICADA */}
               <thead className="bg-gray-50">
                 <tr>
+                  {/* (MODIFICADO) Se quitan estilos de resize */}
                   <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Código
                   </th>
@@ -711,15 +888,14 @@ function PriceListPage() {
                   <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Marca
                   </th>
-                  {/* NUEVA COLUMNA (ELIMINADA)
+                  
+                  {/* (NUEVO) Columna Moneda */}
                   <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Moneda
                   </th>
-                  */}
-                  {/* NUEVA COLUMNA */}
-                  <th scope="col" className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Cotización
-                  </th>
+
+                  {/* (CORREGIDO) Eliminada la columna "Cotización" que sobraba del encabezado */}
+                  
                   {/* NUEVA COLUMNA */}
                   <th scope="col" className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Precio (USD)
@@ -727,7 +903,8 @@ function PriceListPage() {
                   <th scope="col" className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Precio Final (ARS)
                   </th>
-                  <th scope="col" className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  {/* (MODIFICADO) Se quita 'style' de ancho fijo */}
+                  <th scope="col" className="sticky right-0 bg-gray-50 px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Acción
                   </th>
                 </tr>
@@ -738,34 +915,41 @@ function PriceListPage() {
                   const isInCart = cartItemCodes.has(product.code);
                   return (
                     <tr key={product.id} className="hover:bg-gray-50">
-                      <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
+                      {/* (MODIFICADO) Se quita 'style', se mantiene 'truncate' */}
+                      <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900 truncate">
                         {product.code}
                       </td>
-                      <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
+                      {/* (MODIFICADO) Se quita 'truncate' y 'whitespace-nowrap'. Se agrega 'whitespace-normal' y un ancho (w-96) para forzar el ajuste de línea. */}
+                      <td className="px-4 py-3 text-sm text-gray-700 whitespace-normal w-96">
                         {product.description}
                       </td>
                       {/* NUEVA CELDA */}
-                      <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 truncate">
                         {product.brand || '-'}
                       </td>
-                      {/* NUEVA CELDA (ELIMINADA)
-                      <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700">
-                        {product.currency || '-'}
+
+                      {/* (NUEVO) Celda Moneda */}
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 truncate">
+                        {formatCurrencyType(product.currency)}
                       </td>
-                      */}
-                      {/* NUEVA CELDA */}
+
+                      {/* (ELIMINADA) Celda Cotización
                       <td className="px-4 py-3 whitespace-nowrap text-sm text-right text-gray-900">
-                        {/* Asumo que cotización es un número */}
                         {product.rate ? parseFloat(product.rate).toFixed(2) : '-'}
                       </td>
+                      */}
+
                       {/* NUEVA CELDA */}
-                      <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
-                        {product.price_usd ? formatCurrency(product.price_usd) : '-'}
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900 truncate">
+                        {/* (MODIFICADO) Muestra el precio base USD */}
+                        {product.price_usd > 0 ? formatCurrency(product.price_usd) : '-'}
                       </td>
-                      <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900">
+                      <td className="px-4 py-3 whitespace-nowrap text-sm text-right font-semibold text-gray-900 truncate">
+                        {/* (MODIFICADO) Muestra el precio final (calculado o base) */}
                         {formatCurrency(product.price)}
                       </td>
-                      <td className="px-4 py-3 whitespace-nowrap text-sm text-center">
+                      {/* (MODIFICADO) Se quita 'style' de ancho fijo */}
+                      <td className="sticky right-0 bg-white hover:bg-gray-50 px-4 py-3 whitespace-nowrap text-sm text-center">
                         <button
                           onClick={() => handleAddToCart(product)}
                           disabled={isInCart}
